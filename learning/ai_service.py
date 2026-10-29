@@ -1,20 +1,23 @@
-
 import os
 import requests
 
-OLLAMA_URL = "https://ollama.com/api/chat"
-OLLAMA_API_KEY = os.environ.get("OLLAMA_API_KEY", "")
-MODEL_NAME = "gemma4:31b"
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+
+MODEL_NAME = "openai/gpt-oss-20b"
 
 SYSTEM_INSTRUCTIONS = """
 You are Fluent AI, an English-learning assistant.
+
+Your responsibilities:
 - Answer the user's actual question.
+- Handle normal conversation naturally.
 - Correct grammar when useful and explain mistakes simply.
 - Help with vocabulary and conversational English.
 - Give pronunciation tips when requested.
+- Provide short, practical examples when useful.
 - Keep answers concise and suitable for speaking aloud.
 - Do not give unrelated lessons.
-- Do not correct every sentence unless useful or requested.
+- Do not correct every sentence unless correction is useful or requested.
 """
 
 
@@ -22,47 +25,80 @@ def generate_ai_response(message):
     if not isinstance(message, str) or not message.strip():
         raise ValueError("Please provide a valid message.")
 
-    if not OLLAMA_API_KEY:
-        raise RuntimeError("OLLAMA_API_KEY is not configured.")
+    api_key = os.environ.get("GROQ_API_KEY")
+
+    if not api_key:
+        raise RuntimeError(
+            "GROQ_API_KEY is not configured."
+        )
 
     payload = {
         "model": MODEL_NAME,
         "messages": [
-            {"role": "system", "content": SYSTEM_INSTRUCTIONS},
-            {"role": "user", "content": message.strip()},
+            {
+                "role": "system",
+                "content": SYSTEM_INSTRUCTIONS,
+            },
+            {
+                "role": "user",
+                "content": message.strip(),
+            },
         ],
+        "temperature": 0.3,
+        "max_completion_tokens": 300,
         "stream": False,
-        "options": {
-            "temperature": 0.3,
-            "num_predict": 150,
-        },
     }
 
     try:
         response = requests.post(
-            OLLAMA_URL,
+            GROQ_API_URL,
             headers={
-                "Authorization": f"Bearer {OLLAMA_API_KEY}",
+                "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
             },
             json=payload,
-            timeout=(5, 120),
+            timeout=(10, 60),
         )
+
         response.raise_for_status()
         data = response.json()
-        answer = data.get("message", {}).get("content", "")
+
+        answer = (
+            data.get("choices", [{}])[0]
+            .get("message", {})
+            .get("content", "")
+        )
 
         if not isinstance(answer, str) or not answer.strip():
-            raise RuntimeError("The AI returned an empty response.")
+            raise RuntimeError(
+                "The AI returned an empty response."
+            )
 
         return answer.strip()
 
     except requests.exceptions.Timeout as exc:
-        raise RuntimeError("The AI took too long to respond.") from exc
-    except requests.exceptions.HTTPError as exc:
         raise RuntimeError(
-            f"Ollama API error ({exc.response.status_code}). "
-            "Check your API key and model availability."
+            "The AI took too long to respond. Please try again."
         ) from exc
+
+    except requests.exceptions.HTTPError as exc:
+        status = (
+            exc.response.status_code
+            if exc.response is not None
+            else "unknown"
+        )
+
+        raise RuntimeError(
+            f"Groq API error ({status}). "
+            "Check your API key, model and usage limits."
+        ) from exc
+
     except requests.exceptions.RequestException as exc:
-        raise RuntimeError("Could not connect to Ollama Cloud.") from exc
+        raise RuntimeError(
+            "Could not connect to the cloud AI service."
+        ) from exc
+
+    except (ValueError, KeyError, IndexError, TypeError) as exc:
+        raise RuntimeError(
+            "The AI returned an invalid response."
+        ) from exc
