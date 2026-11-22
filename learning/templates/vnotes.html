@@ -1,4 +1,3 @@
-
 {% extends "base.html" %}
 
 {% block title %}V-Notes | Fluent AI{% endblock %}
@@ -298,6 +297,79 @@
         margin-top: 18px;
     }
 
+
+    /* Featured playlist: keeps the existing Fluent AI theme */
+    .vn-playlist-card {
+        margin-bottom: 30px;
+        padding: 24px;
+    }
+
+    .vn-playlist-heading {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 18px;
+    }
+
+    .vn-playlist-heading h2 {
+        margin: 0 0 8px;
+        color: var(--text);
+        font-size: 21px;
+        font-weight: 800;
+        letter-spacing: -.025em;
+    }
+
+    .vn-playlist-heading p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .vn-playlist-player {
+        overflow: hidden;
+        margin-top: 20px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: #101828;
+        box-shadow: var(--shadow);
+    }
+
+    .vn-playlist-player iframe {
+        display: block;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border: 0;
+    }
+
+    .vn-category-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .vn-category-card .vn-btn {
+        margin-top: auto;
+    }
+
+    .vn-category-card p {
+        flex: 1;
+    }
+
+    @media (max-width: 700px) {
+        .vn-playlist-card {
+            padding: 20px;
+        }
+
+        .vn-playlist-heading {
+            flex-direction: column;
+        }
+
+        .vn-playlist-heading .vn-btn {
+            width: 100%;
+        }
+    }
+
     @media (max-width: 700px) {
         .vn-grid {
             grid-template-columns: 1fr;
@@ -357,6 +429,47 @@
     </header>
 
     {% if not selected_category %}
+
+
+        <section class="vn-card vn-playlist-card">
+            <div class="vn-playlist-heading">
+                <div>
+                    <div class="vn-eyebrow">Featured playlist</div>
+                    <h2>English Learning Playlist</h2>
+                    <p>
+                        Learn at your own pace. Choose any lesson from this playlist
+                        and watch it right here inside Fluent AI.
+                    </p>
+                </div>
+
+                <a
+                    class="vn-btn vn-btn-secondary"
+                    href="https://www.youtube.com/playlist?list=PLfSUFKdFlttlrDw2756XyiZXrjdTOw9UH"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Open on YouTube ↗
+                </a>
+            </div>
+
+            <div class="vn-playlist-player">
+                <iframe
+                    src="https://www.youtube.com/embed/videoseries?list=PLfSUFKdFlttlrDw2756XyiZXrjdTOw9UH"
+                    title="English Learning Playlist"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <div class="vn-section-head">
+            <h2>Explore learning categories</h2>
+            <span class="vn-count vn-count-badge">
+                {{ categories|length }} categories
+            </span>
+        </div>
 
         <div class="vn-grid">
             {% for item in categories %}

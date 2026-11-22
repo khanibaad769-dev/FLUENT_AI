@@ -1,0 +1,1838 @@
+[
+  {
+    "stage_number": 4,
+    "topic_number": 1,
+    "title": "Talking About the Past",
+    "vocabulary": [
+      {
+        "word": "experience",
+        "meaning": "something that happens to you"
+      },
+      {
+        "word": "yesterday",
+        "meaning": "the day before today"
+      },
+      {
+        "word": "recently",
+        "meaning": "not long ago"
+      },
+      {
+        "word": "attended",
+        "meaning": "went to an event"
+      },
+      {
+        "word": "memorable",
+        "meaning": "worth remembering"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Which sentence is in the past tense?",
+        "option_a": "I play cricket.",
+        "option_b": "I am playing cricket.",
+        "option_c": "I played cricket yesterday.",
+        "option_d": "I will play cricket.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "What is the past form of go?",
+        "option_a": "Goed",
+        "option_b": "Goes",
+        "option_c": "Went",
+        "option_d": "Going",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence:",
+        "option_a": "watch",
+        "option_b": "watches",
+        "option_c": "watched",
+        "option_d": "watching",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "What is the past form of eat?",
+        "option_a": "Eated",
+        "option_b": "Ate",
+        "option_c": "Eats",
+        "option_d": "Eating",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct negative sentence.",
+        "option_a": "I didn't went there.",
+        "option_b": "I didn't go there.",
+        "option_c": "I don't went there.",
+        "option_d": "I not go there.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the question:",
+        "option_a": "watched",
+        "option_b": "watch",
+        "option_c": "watching",
+        "option_d": "watches",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What is the past form of buy?",
+        "option_a": "Buyed",
+        "option_b": "Bought",
+        "option_c": "Buys",
+        "option_d": "Buying",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "We visited our grandparents last week.",
+        "option_b": "We visit our grandparents last week.",
+        "option_c": "We visiting our grandparents last week.",
+        "option_d": "We visits our grandparents last week.",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "What is the correct short answer?",
+        "option_a": "Yes, I do.",
+        "option_b": "Yes, I did.",
+        "option_c": "Yes, I studied.",
+        "option_d": "Yes, I am.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which time expression refers to the past?",
+        "option_a": "Tomorrow",
+        "option_b": "Next week",
+        "option_c": "Yesterday",
+        "option_d": "Next month",
+        "correct_answer": "C",
+        "explanation": ""
+      }
+    ],
+    "description": "We use the simple past tense to talk about actions that happened and finished in the past.",
+    "content": "Introduction\n\n1. Using the Simple Past\n\nWe use the simple past tense to talk about actions that happened and finished in the past.\n\nExamples:\n\nI watched a movie yesterday.\n\nI visited my friend last week.\n\nShe studied English yesterday.\n\nWe played cricket on Sunday.\n\nCommon time expressions:\n\nYesterday\n\nLast night\n\nLast week\n\nLast month\n\nLast year\n\nTwo days ago\n\n2. Regular Verbs\n\nFor many verbs, we add -ed to make the past form.\n\nPresent | Past\nPlay | Played\nWatch | Watched\nVisit | Visited\nWork | Worked\nClean | Cleaned\nStudy | Studied\n\nExamples:\n\nI played football yesterday.\n\nShe watched a movie.\n\nWe visited our grandparents.\n\n3. Common Irregular Verbs\n\nSome verbs have different past forms.\n\nPresent | Past\nGo | Went\nEat | Ate\nDrink | Drank\nSee | Saw\nCome | Came\nHave | Had\nDo | Did\nBuy | Bought\nTake | Took\nMake | Made\n\nExamples:\n\nI went to college yesterday.\n\nShe ate breakfast.\n\nHe bought a new phone.\n\nWe saw a movie.\n\n4. Making Negative Sentences\n\nUse did not (didn't) + base verb.\n\nI didn't go to college.\n\nShe didn't watch TV.\n\nHe didn't eat breakfast.\n\nWe didn't play cricket.\n\n❌ I didn't went.\n✅ I didn't go.\n\n5. Asking Questions About the Past\n\nUse Did + subject + base verb...?\n\nDid you go to college?\n\nDid you watch the movie?\n\nDid she call you?\n\nDid they play cricket?\n\nShort answers:\n\nYes:\n\nYes, I did.\n\nYes, she did.\n\nNo:\n\nNo, I didn't.\n\nNo, she didn't.\n\n6. Talking About Yesterday\n\nYou can combine different past actions.\n\nExample:\n\nYesterday, I woke up at 7 AM. I went to college and attended my classes. In the evening, I met my friends. At night, I watched a movie and went to bed at 11 PM.",
+    "estimated_minutes": 15,
+    "order": 1
+  },
+  {
+    "stage_number": 4,
+    "topic_number": 2,
+    "title": "Talking About the Future",
+    "vocabulary": [
+      {
+        "word": "intention",
+        "meaning": "something you plan to do"
+      },
+      {
+        "word": "prediction",
+        "meaning": "a statement about what may happen"
+      },
+      {
+        "word": "arrangement",
+        "meaning": "a plan agreed with others"
+      },
+      {
+        "word": "upcoming",
+        "meaning": "happening soon"
+      },
+      {
+        "word": "probably",
+        "meaning": "likely to happen"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Complete the sentence:",
+        "option_a": "will",
+        "option_b": "did",
+        "option_c": "was",
+        "option_d": "have",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "She will goes to college.",
+        "option_b": "She will going to college.",
+        "option_c": "She will go to college.",
+        "option_d": "She will went to college.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence:",
+        "option_a": "is",
+        "option_b": "am",
+        "option_c": "are",
+        "option_d": "be",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence describes an existing plan?",
+        "option_a": "I am going to visit my friend tomorrow.",
+        "option_b": "I visited my friend yesterday.",
+        "option_c": "I visit my friend every day.",
+        "option_d": "I was visiting my friend.",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence:",
+        "option_a": "am",
+        "option_b": "are",
+        "option_c": "is",
+        "option_d": "be",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which word refers to the day after today?",
+        "option_a": "Yesterday",
+        "option_b": "Tomorrow",
+        "option_c": "Last week",
+        "option_d": "Earlier",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct question.",
+        "option_a": "Will you come tomorrow?",
+        "option_b": "Will you came tomorrow?",
+        "option_c": "Do you will come tomorrow?",
+        "option_d": "Will you coming tomorrow?",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "What is the contraction of will not?",
+        "option_a": "Doesn't",
+        "option_b": "Didn't",
+        "option_c": "Won't",
+        "option_d": "Isn't",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence:",
+        "option_a": "is",
+        "option_b": "am",
+        "option_c": "are",
+        "option_d": "was",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence is grammatically correct?",
+        "option_a": "I will learning English.",
+        "option_b": "I am going to learn English.",
+        "option_c": "I going to learn English.",
+        "option_d": "I will learned English.",
+        "correct_answer": "B",
+        "explanation": ""
+      }
+    ],
+    "description": "We often talk about our plans, goals, and things we want to do in the future. In this lesson, you will learn how to describe future actions, make predictions, and talk about your intentions using simple English.",
+    "content": "Introduction\n\nWe often talk about our plans, goals, and things we want to do in the future. In this lesson, you will learn how to describe future actions, make predictions, and talk about your intentions using simple English.\n\n1. Using “Will” for the Future\n\nWe use will + base verb to talk about future actions, predictions, or decisions made at the moment of speaking.\n\nStructure:\nSubject + will + base verb\n\nExamples:\n\nI will call you tomorrow.\n\nShe will help me.\n\nWe will visit Delhi next month.\n\nIt will rain today.\n\nI will answer the question.\n\nRemember: After will, use the base form of the verb.\n\n❌ I will goes to college.\n✅ I will go to college.\n\n2. Using “Going to” for Plans\n\nWe use am/is/are + going to + base verb to talk about plans or intentions.\n\nStructure:\nSubject + am/is/are + going to + base verb\n\nExamples:\n\nI am going to study tonight.\n\nShe is going to buy a new phone.\n\nThey are going to play cricket.\n\nWe are going to visit our grandparents.\n\nNegative sentences:\n\nI am not going to travel tomorrow.\n\nHe isn't going to attend the meeting.\n\nThey aren't going to watch the movie.\n\n3. “Will” vs. “Going to”\n\nBoth can talk about the future, but they are often used differently.\n\nUse “will” for a decision made at the moment:\n\nThe phone is ringing. I will answer it.\n\nUse “going to” for an existing plan:\n\nI am going to study English tonight.\n\nUse “going to” for a prediction based on present evidence:\n\nLook at those dark clouds! It is going to rain.\n\n4. Talking About Future Time\n\nUseful time expressions:\n\nTomorrow\n\nTonight\n\nNext week\n\nNext month\n\nNext year\n\nSoon\n\nLater\n\nIn the future\n\nExamples:\n\nI will meet you tomorrow.\n\nWe are going to travel next week.\n\nShe will call you later.\n\nI am going to learn Python this year.\n\n5. Asking Questions About the Future\n\nUse Will + subject + base verb...?\n\nExamples:\n\nWill you come tomorrow?\n\nWill she join us?\n\nWill they attend the event?\n\nShort answers:\n\nYes, I will.\n\nNo, I won't.\n\nYes, she will.\n\nNo, she won't.\n\nTo ask about plans, use am/is/are + subject + going to...?\n\nAre you going to study tonight?\n\nIs she going to attend the meeting?\n\nAre they going to travel next week?\n\nShort answers:\n\nYes, I am.\n\nNo, I'm not.\n\nYes, she is.\n\nNo, she isn't.\n\n6. Talking About Your Future Plans\n\nYou can combine different future expressions to describe your plans and goals.\n\nExample:\n\nI am going to improve my English this year. I will practise speaking every day. I am going to learn new vocabulary and watch English videos. I hope I will become a confident English speaker in the future.",
+    "estimated_minutes": 15,
+    "order": 2
+  },
+  {
+    "stage_number": 4,
+    "topic_number": 3,
+    "title": "Making Plans",
+    "vocabulary": [
+      {
+        "word": "available",
+        "meaning": "free to do something"
+      },
+      {
+        "word": "reschedule",
+        "meaning": "arrange for a different time"
+      },
+      {
+        "word": "confirm",
+        "meaning": "make certain"
+      },
+      {
+        "word": "alternative",
+        "meaning": "another possibility"
+      },
+      {
+        "word": "convenient",
+        "meaning": "suitable and easy"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Which expression can you use to suggest an activity?",
+        "option_a": "Let's watch a movie.",
+        "option_b": "I watched a movie yesterday.",
+        "option_c": "I watch movies.",
+        "option_d": "I am watching a movie.",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence:",
+        "option_a": "go",
+        "option_b": "goes",
+        "option_c": "going",
+        "option_d": "went",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which is a polite way to invite someone?",
+        "option_a": "You come now.",
+        "option_b": "Would you like to join us?",
+        "option_c": "Come with me.",
+        "option_d": "You must join us.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Someone invites you to dinner, and you want to accept. What can you say?",
+        "option_a": "I can't make it.",
+        "option_b": "Maybe another time.",
+        "option_c": "I'd love to!",
+        "option_d": "I am busy.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the most polite way to decline an invitation.",
+        "option_a": "No, never.",
+        "option_b": "I don't want to.",
+        "option_c": "I'd love to, but I'm busy.",
+        "option_d": "Don't ask me.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the question:",
+        "option_a": "work",
+        "option_b": "works",
+        "option_c": "working",
+        "option_d": "worked",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does available mean?",
+        "option_a": "Very tired",
+        "option_b": "Free to do something",
+        "option_c": "Unable to travel",
+        "option_d": "Already finished",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which word means moving an event to a later time?",
+        "option_a": "Cancel",
+        "option_b": "Confirm",
+        "option_c": "Postpone",
+        "option_d": "Arrange",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I am planning visit my friend.",
+        "option_b": "I planning to visit my friend.",
+        "option_c": "I am planning to visit my friend.",
+        "option_d": "I am plan to visit my friend.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Your friend asks, “Are we meeting at 5 PM?” You want to confirm the plan. What should you say?",
+        "option_a": "Yes, that's the plan.",
+        "option_b": "I meeting yesterday.",
+        "option_c": "Maybe I went.",
+        "option_d": "I am cancel yesterday.",
+        "correct_answer": "A",
+        "explanation": ""
+      }
+    ],
+    "description": "Making plans helps us organize our time and decide what we want to do with others. In this lesson, you will learn how to suggest activities, invite people, discuss availability, and make simple plans in everyday English.",
+    "content": "Introduction\n\nMaking plans helps us organize our time and decide what we want to do with others. In this lesson, you will learn how to suggest activities, invite people, discuss availability, and make simple plans in everyday English.\n\n1. Talking About Your Plans\n\nUse these expressions to talk about things you intend to do.\n\nI am planning to visit my friend.\n\nI am going to watch a movie tonight.\n\nI plan to study English this evening.\n\nWe are planning a trip next month.\n\nI have plans for the weekend.\n\nExamples:\n\nI am planning to visit Delhi next week.\n\nWe are planning to organize a college event.\n\nI plan to finish my homework tonight.\n\n2. Making Suggestions\n\nUse these expressions when you want to suggest an activity.\n\n“Let's...” — Suggest doing something together.\n\nLet's watch a movie.\n\nLet's go shopping.\n\nLet's study together.\n\nLet's have lunch.\n\n“Why don't we...?” — A friendly way to suggest something.\n\nWhy don't we visit the park?\n\nWhy don't we try a new restaurant?\n\nWhy don't we practise English together?\n\n“How about...?” — Suggest an idea.\n\nHow about going for a walk?\n\nHow about watching a movie?\n\nHow about meeting tomorrow?\n\nRemember: After how about, use a noun or an -ing form of the verb.\n\n❌ How about go shopping?\n✅ How about going shopping?\n\n3. Inviting Someone\n\nUse these expressions to invite people.\n\nWould you like to join us?\n\nWould you like to come to my birthday party?\n\nDo you want to watch a movie?\n\nAre you free this evening?\n\nWould you like to have lunch with me?\n\nExample conversation:\n\nA: Would you like to watch a movie tonight?\nB: That sounds great!\nA: Let's meet at 7 PM.\nB: Sure. See you there!\n\n4. Accepting and Declining Invitations\n\nAccepting an invitation:\n\nSure!\n\nOf course!\n\nThat sounds great!\n\nI'd love to.\n\nYes, I'd be happy to.\n\nDeclining politely:\n\nSorry, I can't make it.\n\nI'd love to, but I'm busy.\n\nSorry, I already have plans.\n\nMaybe another time.\n\nCan we meet another day?\n\nExample:\n\nA: Would you like to join us for dinner?\nB: I'd love to, but I have some work to finish.\n\n5. Discussing Time and Availability\n\nUse these expressions to decide when to meet.\n\nAre you free tomorrow?\n\nWhat time works for you?\n\nWhen shall we meet?\n\nCan we meet at 5 PM?\n\nDoes Saturday work for you?\n\nI'm available in the evening.\n\nExample:\n\nA: Are you free on Saturday?\nB: Yes, I am.\nA: What time works for you?\nB: How about 4 PM?\nA: Perfect! See you then.\n\n6. Finalizing Plans\n\nOnce everyone agrees, confirm the details.\n\nLet's meet at 6 PM.\n\nI'll see you tomorrow.\n\nIt's a plan!\n\nSee you there.\n\nDon't forget!\n\nI'll let you know.\n\nExample:\n\nWe are planning to visit the museum on Sunday. We will meet at 10 AM near the main entrance. After visiting the museum, we are going to have lunch together.",
+    "estimated_minutes": 15,
+    "order": 3
+  },
+  {
+    "stage_number": 4,
+    "topic_number": 4,
+    "title": "Sharing Experiences",
+    "vocabulary": [
+      {
+        "word": "experience",
+        "meaning": "knowledge gained by doing something"
+      },
+      {
+        "word": "ever",
+        "meaning": "at any time"
+      },
+      {
+        "word": "never",
+        "meaning": "not at any time"
+      },
+      {
+        "word": "since",
+        "meaning": "from a point in time"
+      },
+      {
+        "word": "recently",
+        "meaning": "in the near past"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I have visit Delhi.",
+        "option_b": "I has visited Delhi.",
+        "option_c": "I have visited Delhi.",
+        "option_d": "I have visiting Delhi.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: She _____ tried sushi before.",
+        "option_a": "have",
+        "option_b": "has",
+        "option_c": "having",
+        "option_d": "is",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which word is commonly used to ask about life experiences?",
+        "option_a": "Yesterday",
+        "option_b": "Tomorrow",
+        "option_c": "Ever",
+        "option_d": "Last",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I have _____ finished my homework.",
+        "option_a": "just",
+        "option_b": "yesterday",
+        "option_c": "last week",
+        "option_d": "tomorrow",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I have seen him yesterday.",
+        "option_b": "I saw him yesterday.",
+        "option_c": "I see him yesterday.",
+        "option_d": "I have saw him yesterday.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: Have you finished your assignment _____?",
+        "option_a": "already",
+        "option_b": "yet",
+        "option_c": "yesterday",
+        "option_d": "ago",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does “participate” mean?",
+        "option_a": "To avoid an activity",
+        "option_b": "To take part in an activity",
+        "option_c": "To forget something",
+        "option_d": "To finish sleeping",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: He has _____ travelled by airplane.",
+        "option_a": "never",
+        "option_b": "yesterday",
+        "option_c": "last year",
+        "option_d": "tomorrow",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which question is suitable for continuing a conversation about an experience?",
+        "option_a": "What happened next?",
+        "option_b": "Why tomorrow?",
+        "option_c": "Where yesterday?",
+        "option_d": "What doing now yesterday?",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "They has already submitted the project.",
+        "option_b": "They have already submit the project.",
+        "option_c": "They have already submitted the project.",
+        "option_d": "They already have submit the project yesterday.",
+        "correct_answer": "C",
+        "explanation": ""
+      }
+    ],
+    "description": "Learn how to talk about experiences you have had in your life, college, or daily routine. You will practice using the present perfect tense and the simple past tense to share experiences naturally.",
+    "content": "Introduction\n\nLearn how to talk about experiences you have had in your life, college, or daily routine. You will practice using the present perfect tense and the simple past tense to share experiences naturally.\n\n1. Talking About Experiences\n\nWe often talk about things we have done, places we have visited, and activities we have tried.\n\nExamples:\n\nI have visited Delhi.\n\nI have tried Japanese food.\n\nShe has participated in a college competition.\n\nWe have watched that movie.\n\nHe has never travelled by airplane.\n\nStructure:\n\nI/You/We/They + have + past participle (V3)\n\nHe/She/It + has + past participle (V3)\n\nBase Verb (V1) | Past (V2) | Past Participle (V3)\nVisit | Visited | Visited\nSee | Saw | Seen\nEat | Ate | Eaten\nGo | Went | Gone\nTry | Tried | Tried\nWrite | Wrote | Written\nMeet | Met | Met\nDo | Did | Done\n\n2. Talking About Life Experiences\n\nUse ever when asking whether someone has had an experience at any time in their life.\n\nExamples:\n\nHave you ever visited Mumbai?\n\nHave you ever spoken in front of a large audience?\n\nHave you ever participated in a competition?\n\nUse never when saying that something has not happened at any time.\n\nExamples:\n\nI have never travelled by train.\n\nShe has never tried sushi.\n\nI have never given a public speech.\n\nRemember: Use ever mainly in questions and never to describe an experience you have not had.\n\n3. Talking About Recent Experiences\n\nUse just for something that happened very recently.\n\nExamples:\n\nI have just finished my homework.\n\nShe has just arrived at college.\n\nWe have just completed our project.\n\nUse already when something has happened sooner than expected or before now.\n\nExamples:\n\nI have already submitted my assignment.\n\nHe has already eaten lunch.\n\nUse yet mainly in questions and negative sentences.\n\nExamples:\n\nHave you finished your project yet?\n\nI haven't completed my homework yet.\n\nHas she arrived yet?\n\n4. Simple Past vs. Present Perfect\n\nBoth tenses describe past events, but they are used differently.\n\nSimple Past: Use it when talking about a completed action at a specific time.\n\nI visited Delhi last year.\n\nShe completed her assignment yesterday.\n\nWe watched a movie last night.\n\nPresent Perfect: Use it when talking about an experience without specifying exactly when it happened.\n\nI have visited Delhi.\n\nShe has completed her assignment.\n\nWe have watched that movie.\n\nCompare:\n\n❌ I have visited Delhi last year.\n✅ I visited Delhi last year.\n\n✅ I have visited Delhi.\n✅ I visited Delhi last year.\n\n5. Asking Follow-Up Questions\n\nWhen someone shares an experience, ask questions to keep the conversation going.\n\nExample Conversation\n\nA: Have you ever participated in a college competition?\nB: Yes, I have participated in a coding competition.\nA: That sounds interesting! What did you do there?\nB: I worked with my team on a software project.\nA: Did you enjoy the experience?\nB: Yes, I learned a lot from it.\n\nUseful follow-up questions:\n\nWhat happened next?\n\nHow did you feel?\n\nWho went with you?\n\nWhat did you learn?\n\nWould you like to do it again?\n\n6. Practice Speaking\n\nTry answering these questions aloud in complete sentences:\n\nHave you ever travelled to another city?\n\nHave you ever participated in a competition?\n\nWhat was the best day of your life?\n\nHave you ever learned something difficult?\n\nWhat did you do last weekend?\n\nSpeaking Tip: Give a short answer first, then add details.\n\nExample:\n\nQuestion: Have you ever participated in a competition?\n\nShort answer: Yes, I have.\n\nDetailed answer: Yes, I have participated in a college competition. I worked with my teammates on a project, and the experience helped me improve my communication skills.",
+    "estimated_minutes": 15,
+    "order": 4
+  },
+  {
+    "stage_number": 4,
+    "topic_number": 5,
+    "title": "Giving Reasons",
+    "vocabulary": [
+      {
+        "word": "reason",
+        "meaning": "an explanation for something"
+      },
+      {
+        "word": "result",
+        "meaning": "what happens because of an action"
+      },
+      {
+        "word": "therefore",
+        "meaning": "for that reason"
+      },
+      {
+        "word": "due to",
+        "meaning": "because of"
+      },
+      {
+        "word": "since",
+        "meaning": "because, when giving a reason"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Complete the sentence: I stayed home _____ I was feeling sick.",
+        "option_a": "so",
+        "option_b": "because",
+        "option_c": "but",
+        "option_d": "or",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I was late because of I missed the bus.",
+        "option_b": "I was late because I missed the bus.",
+        "option_c": "I was late because the traffic.",
+        "option_d": "I was late so because I missed the bus.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: It was raining, _____ we cancelled the picnic.",
+        "option_a": "because",
+        "option_b": "although",
+        "option_c": "so",
+        "option_d": "unless",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "Because I was tired, so I slept early.",
+        "option_b": "Because I was tired, I slept early.",
+        "option_c": "Because I tired, I slept early.",
+        "option_d": "Because of I was tired, I slept early.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: The match was cancelled _____ the heavy rain.",
+        "option_a": "because",
+        "option_b": "because of",
+        "option_c": "so",
+        "option_d": "that's why",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"That's why\" express?",
+        "option_a": "A question",
+        "option_b": "A comparison",
+        "option_c": "A result or consequence",
+        "option_d": "A greeting",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: _____ I had an examination the next day, I went to bed early.",
+        "option_a": "Since",
+        "option_b": "So",
+        "option_c": "But",
+        "option_d": "Or",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the most suitable response.",
+        "option_a": "Because I want to improve my communication skills.",
+        "option_b": "Yesterday at the college.",
+        "option_c": "I am twenty years old.",
+        "option_d": "At seven o'clock.",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I practice speaking every day. _____, I feel more confident now.",
+        "option_a": "Because",
+        "option_b": "That's why",
+        "option_c": "Although",
+        "option_d": "Unless",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence uses \"because of\" correctly?",
+        "option_a": "We stayed inside because of it was raining.",
+        "option_b": "We stayed inside because of the rain.",
+        "option_c": "We stayed inside because of it rained.",
+        "option_d": "We stayed inside because of was raining.",
+        "correct_answer": "B",
+        "explanation": ""
+      }
+    ],
+    "description": "Learn how to explain why something happens, why you make certain decisions, and why you have particular opinions. In this lesson, you will practice using because, because of, so, since, and that's why to communicate more clearly in everyday conversations.",
+    "content": "Introduction\n\nLearn how to explain why something happens, why you make certain decisions, and why you have particular opinions. In this lesson, you will practice using because, because of, so, since, and that's why to communicate more clearly in everyday conversations.\n\n1. Giving Reasons with \"Because\"\n\nWe use because to explain the reason for something. It answers the question \"Why?\"\n\nStructure:\n\nResult + because + reason\n\nExamples:\n\nI stayed at home because I was feeling sick.\n\nShe is happy because she passed her examination.\n\nI practice English because I want to improve my communication skills.\n\nWe arrived late because the traffic was heavy.\n\nHe joined the club because he wanted to learn new skills.\n\nIn everyday conversations:\n\nA: Why are you learning English?\nB: I am learning English because I want to speak confidently.\n\nA: Why didn't you attend the meeting?\nB: I didn't attend because I had some urgent work.\n\n2. Giving Reasons with \"Because Of\"\n\nUse because of before a noun or noun phrase to explain the reason.\n\nStructure:\n\nResult + because of + noun/noun phrase\n\nBecause | Because of\nI stayed home because it was raining. | I stayed home because of the rain.\nThe match was cancelled because the weather was bad. | The match was cancelled because of bad weather.\nShe was late because her bus broke down. | She was late because of a bus breakdown.\n\nRemember:\n\nBecause + subject + verb\n\nBecause of + noun or noun phrase\n\n❌ I was late because of I missed the bus.\n✅ I was late because I missed the bus.\n✅ I was late because of the traffic.\n\n3. Showing Results with \"So\"\n\nWe use so to explain the result of a situation.\n\nStructure:\n\nReason + so + result\n\nExamples:\n\nI was tired, so I went to bed early.\n\nIt was raining, so we cancelled the picnic.\n\nShe studied hard, so she passed the examination.\n\nThe shop was closed, so we returned home.\n\nI missed the bus, so I took an auto-rickshaw.\n\nCompare:\n\nI stayed home because I was sick.\n\nI was sick, so I stayed home.\n\nBoth sentences express the same basic relationship, but they emphasize different parts.\n\nCommon mistake:\n\n❌ Because I was tired, so I went to bed.\n✅ Because I was tired, I went to bed.\n✅ I was tired, so I went to bed.\n\nAvoid using because and so together to connect the same reason and result.\n\n4. Using \"That's Why\"\n\nUse that's why when you want to explain the result of a reason that has already been mentioned.\n\nExamples:\n\nI didn't sleep well last night. That's why I feel tired today.\n\nShe practices every day. That's why her English is improving.\n\nThe road was blocked. That's why we arrived late.\n\nI want to become a good speaker. That's why I practice speaking regularly.\n\nEveryday conversation:\n\nA: You speak English very confidently.\nB: Thank you! I practice every day. That's why I feel more confident now.\n\n5. Using \"Since\" to Give Reasons\n\nWe can use since to mean because, especially when the reason is already known or is not the main focus.\n\nExamples:\n\nSince it was getting late, we decided to leave.\n\nSince I had an examination the next day, I went to bed early.\n\nSince the classroom was full, we sat outside.\n\nSince you are free today, let's work on our project.\n\nWhen the reason comes first, use a comma before the main clause.\n\nExample:\n\nSince I was feeling unwell, I stayed at home.\n\nSpeaking tip: In everyday conversations, because is usually the easiest and most natural choice when you want to explain a reason directly.\n\n6. Explaining Your Decisions\n\nGiving reasons helps people understand your choices.\n\nUseful sentence patterns:\n\nI decided to ___ because ___.\n\nI prefer ___ because ___.\n\nI chose ___ because ___.\n\nI couldn't ___ because ___.\n\nI would like to ___ because ___.\n\nI think ___ because ___.\n\nExamples:\n\nI decided to learn Python because I am interested in programming.\n\nI prefer studying in the morning because I can concentrate better.\n\nI chose this college because it offers good learning opportunities.\n\nI couldn't attend the event because I had an examination.\n\nI would like to join the competition because it will help me gain experience.\n\n7. Real-Life Speaking Practice\n\nRead the conversation and notice how reasons are used naturally.\n\nA: Why didn't you come to college yesterday?\n\nB: I wasn't feeling well, so I stayed at home.\n\nA: Oh, I see. Are you feeling better now?\n\nB: Yes, much better. I rested properly, and that's why I feel fine today.\n\nA: That's good! Are you coming tomorrow?\n\nB: Yes, because I have an important project meeting.\n\n8. Practice Speaking Aloud\n\nAnswer these questions in complete sentences.\n\nWhy are you learning English?\n\nWhy do you want to improve your communication skills?\n\nWhy do students participate in competitions?\n\nWhy do you prefer your favourite subject?\n\nWhy is teamwork important?\n\nWhy should students manage their time?\n\nWhy do people travel to different places?\n\nWhy is regular practice important?\n\nChallenge: Try to answer each question in two sentences. Give your reason first, then explain the result or benefit.\n\nExample conversation / usage: I left early because I had an appointment.",
+    "estimated_minutes": 15,
+    "order": 5
+  },
+  {
+    "stage_number": 5,
+    "topic_number": 1,
+    "title": "Travel & Transportation",
+    "vocabulary": [
+      {
+        "word": "departure",
+        "meaning": "the act or time of leaving"
+      },
+      {
+        "word": "destination",
+        "meaning": "the place you are travelling to"
+      },
+      {
+        "word": "platform",
+        "meaning": "area where passengers board a train"
+      },
+      {
+        "word": "luggage",
+        "meaning": "bags carried on a journey"
+      },
+      {
+        "word": "itinerary",
+        "meaning": "a planned travel schedule"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I travel by the bus every day.",
+        "option_b": "I travel by bus every day.",
+        "option_c": "I travel on bus every day.",
+        "option_d": "I travel with bus every day.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression is most polite when asking for directions?",
+        "option_a": "Tell me the station.",
+        "option_b": "You show station.",
+        "option_c": "Could you tell me how to get to the station?",
+        "option_d": "Station where?",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"destination\" mean?",
+        "option_a": "The place you are travelling to",
+        "option_b": "A travel bag",
+        "option_c": "A type of ticket",
+        "option_d": "A transport problem",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I would like to book _____ ticket to Delhi.",
+        "option_a": "a",
+        "option_b": "an",
+        "option_c": "the many",
+        "option_d": "some",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which phrase means travelling to a place and then returning?",
+        "option_a": "One-way ticket",
+        "option_b": "Boarding pass",
+        "option_c": "Return ticket",
+        "option_d": "Departure time",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: The train was delayed, _____ we waited at the station.",
+        "option_a": "because",
+        "option_b": "so",
+        "option_c": "although",
+        "option_d": "unless",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression is appropriate when your luggage is missing?",
+        "option_a": "I have booked my luggage.",
+        "option_b": "I have lost my luggage.",
+        "option_c": "I have departed my luggage.",
+        "option_d": "I have arrived my luggage.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"Go straight ahead\" mean?",
+        "option_a": "Turn left immediately.",
+        "option_b": "Turn right immediately.",
+        "option_c": "Continue forward without turning.",
+        "option_d": "Return to your starting point.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: We need to _____ the train at 6 p.m.",
+        "option_a": "catch",
+        "option_b": "do",
+        "option_c": "make",
+        "option_d": "put",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which is the best response to \"Has boarding started yet?\"",
+        "option_a": "Yes, I am boarding yesterday.",
+        "option_b": "Not yet. Please wait near the gate.",
+        "option_c": "Boarding is a suitcase.",
+        "option_d": "I have a ticket tomorrow yesterday.",
+        "correct_answer": "B",
+        "explanation": ""
+      }
+    ],
+    "description": "Learn how to communicate confidently while travelling, asking about transport, booking tickets, and finding your way around unfamiliar places. This lesson will help you use practical English in real-life travel situations..",
+    "content": "Introduction\n\nLearn how to communicate confidently while travelling, asking about transport, booking tickets, and finding your way around unfamiliar places. This lesson will help you use practical English in real-life travel situations..\n\n1. Talking About Travel Plans\n\nUse these sentence patterns to talk about your travel plans.\n\nUseful Structures:\n\nI am planning to visit ___.\n\nI am travelling to ___.\n\nI would like to visit ___.\n\nI am going to travel by ___.\n\nI have booked a ticket to ___.\n\nExamples:\n\nI am planning to visit Jaipur next month.\n\nI am travelling to Delhi by train.\n\nI would like to visit Goa during my holidays.\n\nI am going to travel by bus.\n\nI have booked a ticket to Mumbai.\n\nEveryday Conversation\n\nA: Where are you planning to go this weekend?\nB: I am planning to visit Indore.\nA: How will you get there?\nB: I will travel by bus.\n\n2. Talking About Different Modes of Transport\n\nLearn how to name different types of transportation and use them in sentences.\n\nTransport | Example Sentence\nBus | I usually travel by bus.\nTrain | We are going to Bhopal by train.\nAirplane | She travelled to Delhi by airplane.\nCar | My family travelled by car.\nBicycle | He rides his bicycle to college.\nTaxi | We booked a taxi to reach the airport.\nMetro | I take the metro to work.\nAuto-rickshaw | I took an auto-rickshaw to the station.\n\nRemember:\n\nWe usually say by bus, by train, by car, and by airplane.\n\nWe say on foot when walking somewhere.\n\nWe say ride a bicycle, take a bus, or catch a train.\n\nExamples:\n\nI go to college by bus.\n\nI walk to the market on foot.\n\nShe rides a bicycle to school.\n\nWe need to catch the 6 p.m. train.\n\n3. Asking for Directions\n\nWhen travelling, you may need to ask someone how to reach a place.\n\nUseful Questions:\n\nExcuse me, how can I get to the railway station?\n\nWhere is the nearest bus stop?\n\nCould you tell me the way to the airport?\n\nIs this the right way to the hotel?\n\nHow far is the city centre from here?\n\nUseful Responses:\n\nGo straight ahead.\n\nTurn left at the traffic lights.\n\nTurn right at the next street.\n\nIt is next to the bank.\n\nIt is opposite the hospital.\n\nIt is about ten minutes away.\n\nExample Conversation\n\nA: Excuse me, could you tell me how to get to the railway station?\nB: Go straight ahead and turn left at the next crossing.\nA: Is it far from here?\nB: No, it is about a five-minute walk.\nA: Thank you for your help!\nB: You're welcome!\n\n4. Booking Tickets\n\nYou may need to book tickets online or at a ticket counter.\n\nUseful Expressions:\n\nI would like to book a ticket to Delhi.\n\nAre there any seats available?\n\nWhat time does the train leave?\n\nHow much is a one-way ticket?\n\nCan I book a return ticket?\n\nIs there a discount for students?\n\nCould you please confirm my booking?\n\nExample Conversation\n\nPassenger: Good morning. I would like to book a ticket to Mumbai.\n\nBooking Clerk: Certainly. When would you like to travel?\n\nPassenger: Tomorrow morning, please.\n\nBooking Clerk: Would you like a one-way or return ticket?\n\nPassenger: A one-way ticket, please.\n\nBooking Clerk: All right. Here are the available options.\n\nPassenger: Thank you. Could you tell me the departure time?\n\nBooking Clerk: The departure time is printed on your ticket.\n\n5. At the Airport\n\nThese expressions are useful when travelling by airplane.\n\nSituation | Useful Expression\nChecking in | Where is the check-in counter?\nFinding your gate | Could you tell me where Gate 12 is?\nAsking about luggage | Where should I collect my luggage?\nAsking about boarding | Has boarding started yet?\nAsking about delays | Is the flight delayed?\nAsking for help | Could you please help me with my boarding pass?\n\nExample Conversation\n\nPassenger: Excuse me, where is Gate 12?\n\nAirport Staff: Go straight ahead and turn right.\n\nPassenger: Thank you. Has boarding started yet?\n\nAirport Staff: Not yet. Please wait near the gate.\n\nPassenger: All right. Thank you for your help.\n\n6. Handling Travel Problems\n\nSometimes plans change because of delays, cancellations, or lost belongings. Learn how to explain the problem politely.\n\nUseful Expressions:\n\nMy train has been delayed.\n\nMy flight has been cancelled.\n\nI have lost my luggage.\n\nI think I have taken the wrong bus.\n\nCould you please help me?\n\nIs there another way to reach my destination?\n\nWhere can I get more information?\n\nExample Conversation\n\nTraveller: Excuse me, my train has been delayed. Could you tell me the reason?\n\nStaff: There is a technical problem.\n\nTraveller: I see. Could you tell me the expected departure time?\n\nStaff: Please check the station announcement for updates.\n\nTraveller: Thank you for the information.\n\n7. Speaking Practice: Plan a Trip\n\nImagine you are planning a trip with your friend.\n\nFriend: Where would you like to go for our next trip?\n\nYou: I would like to visit Jaipur.\n\nFriend: How will we travel there?\n\nYou: We can travel by train because it is convenient.\n\nFriend: Have you booked the tickets?\n\nYou: Not yet. I will book them tonight.\n\nFriend: Where will we stay?\n\nYou: We can book a hotel near the city centre.\n\nFriend: Great! I am excited about the trip.\n\n8. Practice Speaking Aloud\n\nAnswer these questions in complete sentences:\n\nHow do you usually travel to college?\n\nWhich city would you like to visit and why?\n\nDo you prefer travelling by train, bus, or airplane?\n\nWhat do you usually pack when travelling?\n\nHow would you ask someone for directions?\n\nWhat would you do if you missed your train?\n\nHave you ever travelled to another city?\n\nWhat is the most important thing to remember when travelling?\n\nSpeaking Challenge: Describe your ideal trip in five sentences. Include your destination, transport, travel companions, activities, and reason for choosing that place.",
+    "estimated_minutes": 15,
+    "order": 1
+  },
+  {
+    "stage_number": 5,
+    "topic_number": 2,
+    "title": "School & College",
+    "vocabulary": [
+      {
+        "word": "assignment",
+        "meaning": "a piece of academic work"
+      },
+      {
+        "word": "deadline",
+        "meaning": "the latest time to finish something"
+      },
+      {
+        "word": "lecture",
+        "meaning": "a formal teaching session"
+      },
+      {
+        "word": "revise",
+        "meaning": "study material again"
+      },
+      {
+        "word": "semester",
+        "meaning": "one academic term"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Choose the most polite way to ask a teacher for help.",
+        "option_a": "Explain this now.",
+        "option_b": "You explain again.",
+        "option_c": "Could you please explain this topic again?",
+        "option_d": "I don't care about this topic.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"deadline\" mean?",
+        "option_a": "The first day of a course",
+        "option_b": "The final date for completing something",
+        "option_c": "A classroom activity",
+        "option_d": "A type of examination",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I need to _____ my notes before the examination.",
+        "option_a": "revise",
+        "option_b": "arrive",
+        "option_c": "depart",
+        "option_d": "borrow",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I have submitted my assignment.",
+        "option_b": "I has submitted my assignment.",
+        "option_c": "I have submit my assignment.",
+        "option_d": "I submitting my assignment yesterday.",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression is appropriate during a classroom discussion?",
+        "option_a": "Stop talking.",
+        "option_b": "I would like to share my opinion.",
+        "option_c": "You are always wrong.",
+        "option_d": "I will not listen.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"collaborate\" mean?",
+        "option_a": "To work together",
+        "option_b": "To work alone forever",
+        "option_c": "To avoid a task",
+        "option_d": "To cancel a meeting",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: We need to divide the work _____ ourselves.",
+        "option_a": "among",
+        "option_b": "at",
+        "option_c": "from",
+        "option_d": "onto",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct response to \"How was your examination?\"",
+        "option_a": "It is a pencil.",
+        "option_b": "It went quite well.",
+        "option_c": "Tomorrow morning.",
+        "option_d": "I am a classroom.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"clarify\" mean?",
+        "option_a": "To make something easier to understand",
+        "option_b": "To make something disappear",
+        "option_c": "To delay a task",
+        "option_d": "To forget something",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I am working _____ a group project.",
+        "option_a": "on",
+        "option_b": "at",
+        "option_c": "by",
+        "option_d": "from",
+        "correct_answer": "A",
+        "explanation": ""
+      }
+    ],
+    "description": "Learn how to communicate confidently in school and college. This lesson covers classroom conversations, assignments, examinations, asking teachers for help, and interacting with classmates. Learn how to communicate confidently in school and college. This lesson covers classroom conversations, assignments, examinations, asking teachers for help, and interacting with classmates.",
+    "content": "Introduction\n\nLearn how to communicate confidently in school and college. This lesson covers classroom conversations, assignments, examinations, asking teachers for help, and interacting with classmates.\n\nLearn how to communicate confidently in school and college. This lesson covers classroom conversations, assignments, examinations, asking teachers for help, and interacting with classmates.\n\n1. Talking About Your Classes\n\nUse these expressions to describe your academic routine.\n\nUseful sentence patterns:\n\nI have a class in ___.\n\nMy next lecture is about ___.\n\nOur teacher is teaching us ___.\n\nI am studying ___.\n\nMy favourite subject is ___ because ___.\n\nExamples:\n\nI have a mathematics lecture at 10 a.m.\n\nMy next class is about artificial intelligence.\n\nWe are learning Python programming.\n\nMy favourite subject is computer science because I enjoy solving problems.\n\nI have three lectures today.\n\nConversation\n\nA: What do you have in your next lecture?\nB: I have a lecture on database management systems.\nA: Do you find it interesting?\nB: Yes, I do. I enjoy learning how databases work.\n\n2. Talking About Assignments and Projects\n\nLearn how to discuss academic tasks with teachers and classmates.\n\nUseful expressions:\n\nI have to complete my assignment.\n\nWhen is the submission deadline?\n\nHave you finished your project?\n\nCould you explain this question to me?\n\nI am working on a group project.\n\nWe need to divide the work among ourselves.\n\nI have submitted my assignment.\n\nExamples:\n\nI need to complete my assignment by Friday.\n\nOur project deadline is next week.\n\nMy team is developing a learning application.\n\nI have finished my part of the project.\n\nWe are preparing a presentation for our teacher.\n\nConversation\n\nA: Have you completed the assignment?\nB: Not yet. I am working on the last question.\nA: When do we have to submit it?\nB: The deadline is tomorrow.\nA: Let me know if you need any help.\nB: Thank you! That would be helpful.\n\n3. Asking Teachers for Help\n\nWhen you do not understand something, ask questions politely.\n\nUseful expressions:\n\nCould you please explain this topic again?\n\nI didn't understand the last part.\n\nCould you give us another example?\n\nMay I ask a question?\n\nCould you please clarify this concept?\n\nWould you mind explaining this step?\n\nThank you for explaining it.\n\nExamples:\n\n❌ Explain this again.\n\n✅ Could you please explain this again?\n\n❌ I don't understand anything.\n\n✅ I am having difficulty understanding this topic. Could you explain it once more?\n\nRemember: Polite language helps you communicate respectfully with teachers and classmates.\n\n4. Talking About Examinations\n\nUse these expressions to talk about preparation and results.\n\nUseful expressions:\n\nI am preparing for my examinations.\n\nI have completed most of the syllabus.\n\nI need to revise a few topics.\n\nThe examination was easier than I expected.\n\nI found the last question difficult.\n\nI am hoping for a good result.\n\nI need to manage my time better.\n\nConversation\n\nA: How was your examination?\nB: It went quite well, but the last question was difficult.\nA: Did you complete the paper on time?\nB: Almost. I need to improve my time management.\n\n5. Participating in Classroom Discussions\n\nLearn how to share your thoughts and participate actively.\n\nUseful expressions:\n\nI would like to share my opinion.\n\nI agree with your point.\n\nCould you explain what you mean?\n\nIn my opinion, this approach is better.\n\nI have a different perspective.\n\nThat is an interesting point.\n\nMay I add something?\n\nExample Conversation\n\nTeacher: Why do you think teamwork is important?\n\nStudent A: In my opinion, teamwork helps people share ideas.\n\nStudent B: I agree. It also helps us solve problems more efficiently.\n\nStudent C: I would like to add that teamwork teaches us how to cooperate with others.\n\n6. Talking About College Life\n\nUse these sentences to describe your college experience.\n\nI enjoy participating in college events.\n\nI have made many new friends.\n\nOur college organizes technical competitions.\n\nI am a member of a student club.\n\nI want to improve my communication skills.\n\nCollege has helped me become more independent.\n\nSpeaking Practice\n\nAnswer these questions aloud:\n\nWhat is your favourite subject and why?\n\nHow do you prepare for examinations?\n\nWhat activities do you participate in at college?\n\nHow do you manage assignments and deadlines?\n\nWhat skills would you like to develop during college?",
+    "estimated_minutes": 15,
+    "order": 2
+  },
+  {
+    "stage_number": 5,
+    "topic_number": 3,
+    "title": "Work & Workplace",
+    "vocabulary": [
+      {
+        "word": "colleague",
+        "meaning": "someone you work with"
+      },
+      {
+        "word": "responsibility",
+        "meaning": "a duty or task"
+      },
+      {
+        "word": "department",
+        "meaning": "a section of an organisation"
+      },
+      {
+        "word": "supervisor",
+        "meaning": "a person who oversees work"
+      },
+      {
+        "word": "collaborate",
+        "meaning": "work together"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Choose the most professional expression.",
+        "option_a": "Give me the report.",
+        "option_b": "Send it immediately.",
+        "option_c": "Could you please share the report?",
+        "option_d": "I want that report now.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I am responsible _____ preparing the weekly report.",
+        "option_a": "to",
+        "option_b": "for",
+        "option_c": "at",
+        "option_d": "by",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"colleague\" mean?",
+        "option_a": "A person you work with",
+        "option_b": "A person who sells tickets",
+        "option_c": "A person who teaches your class only",
+        "option_d": "A person travelling with you",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the best response to \"How is the project progressing?\"",
+        "option_a": "I am a project yesterday.",
+        "option_b": "It is progressing well, and we have completed the first phase.",
+        "option_c": "The office is a chair.",
+        "option_d": "I will never discuss it.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression is appropriate when your work is delayed?",
+        "option_a": "I don't care about the deadline.",
+        "option_b": "The delay is your problem.",
+        "option_c": "I apologize for the delay.",
+        "option_d": "Forget the task.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "What is a prototype?",
+        "option_a": "An early model of a product",
+        "option_b": "A final salary payment",
+        "option_c": "A workplace holiday",
+        "option_d": "A meeting invitation",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I will keep you _____ about the project's progress.",
+        "option_a": "updated",
+        "option_b": "arrived",
+        "option_c": "departed",
+        "option_d": "booked",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression is appropriate during a meeting?",
+        "option_a": "Your idea is stupid.",
+        "option_b": "I have a suggestion we could discuss.",
+        "option_c": "Stop the meeting.",
+        "option_d": "Nobody should speak.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"resolve an issue\" mean?",
+        "option_a": "To create another problem",
+        "option_b": "To find a solution to a problem",
+        "option_c": "To ignore a problem",
+        "option_d": "To postpone every task",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which is a suitable professional email closing?",
+        "option_a": "Go away",
+        "option_b": "Whatever",
+        "option_c": "Best regards",
+        "option_d": "See you never",
+        "correct_answer": "C",
+        "explanation": ""
+      }
+    ],
+    "description": "Learn how to communicate professionally in workplace situations. This lesson covers introducing yourself to colleagues, discussing tasks, asking for help, attending meetings, and communicating politely with managers and coworkers.",
+    "content": "Introduction\n\nLearn how to communicate professionally in workplace situations. This lesson covers introducing yourself to colleagues, discussing tasks, asking for help, attending meetings, and communicating politely with managers and coworkers.\n\n1. Introducing Yourself at Work\n\nWhen you meet colleagues or join a new organization, introduce yourself politely.\n\nUseful sentence patterns:\n\nHello, my name is ___.\n\nI work as a ___.\n\nI am responsible for ___.\n\nI recently joined the team.\n\nI look forward to working with you.\n\nIt is a pleasure to meet you.\n\nExamples:\n\nHello, my name is Riya. I recently joined the marketing team.\n\nI work as a software developer.\n\nI am responsible for managing customer requests.\n\nI look forward to working with everyone.\n\nConversation\n\nA: Hi, I am Rahul from the development team.\nB: Hello, I am Aisha. I recently joined the design team.\nA: Nice to meet you, Aisha.\nB: Nice to meet you too. I look forward to working with you.\n\n2. Talking About Work Responsibilities\n\nUse these expressions to explain your duties and tasks.\n\nUseful expressions:\n\nI am responsible for managing the project.\n\nI handle customer enquiries.\n\nMy main task is to prepare reports.\n\nI am working on a new assignment.\n\nI have completed my assigned tasks.\n\nI need some additional time to finish this.\n\nI will update you once it is completed.\n\nExamples:\n\nI am responsible for preparing the weekly report.\n\nMy main task is to test the application.\n\nI have completed the first part of the project.\n\nI need another day to finish the presentation.\n\nRemember:\nUse responsible for + noun or verb-ing.\n\nExamples:\n\nI am responsible for the report.\n\nI am responsible for preparing the report.\n\n3. Asking for Help Politely\n\nProfessional communication should be respectful and clear.\n\nUseful expressions:\n\nCould you help me with this task?\n\nCould you please explain the process?\n\nI need some guidance on this issue.\n\nWould you mind reviewing my work?\n\nCould you spare a few minutes?\n\nI would appreciate your feedback.\n\nExamples:\n\nInstead of: \"Check my work.\"\n\nSay: \"Could you please review my work when you have time?\"\n\nInstead of: \"I don't know what to do.\"\n\nSay: \"I am unsure how to proceed. Could you guide me?\"\n\n4. Giving Updates About Your Work\n\nManagers and teammates often need updates about progress.\n\nUseful expressions:\n\nI have completed the first stage.\n\nI am currently working on the next task.\n\nThe project is progressing well.\n\nI have encountered a small issue.\n\nI expect to finish it by tomorrow.\n\nI will keep you updated.\n\nThe task has been completed successfully.\n\nConversation\n\nManager: How is the project progressing?\n\nEmployee: I have completed the initial design.\n\nManager: What are you working on now?\n\nEmployee: I am currently developing the main features.\n\nManager: When do you expect to finish?\n\nEmployee: I expect to complete them by Friday.\n\n5. Talking in Workplace Meetings\n\nMeetings require clear, respectful communication.\n\nUseful expressions:\n\nShall we begin the meeting?\n\nI would like to discuss the project timeline.\n\nCould you explain that point?\n\nI agree with the proposed approach.\n\nI have a suggestion.\n\nLet's discuss the next steps.\n\nCould we schedule another meeting?\n\nTo summarize, we have three main tasks.\n\nExample Conversation\n\nTeam Leader: Let's discuss our project progress.\n\nTeam Member: We have completed the research phase.\n\nTeam Leader: What should we do next?\n\nTeam Member: I suggest that we start developing the prototype.\n\nTeam Leader: That sounds good. Who will handle the design?\n\nTeam Member: I can take responsibility for the initial design.\n\n6. Handling Workplace Problems\n\nProblems can happen at work. Explain them calmly and suggest solutions.\n\nUseful expressions:\n\nWe have encountered a technical issue.\n\nThere seems to be a problem with the system.\n\nI am working on resolving the issue.\n\nCould we discuss an alternative approach?\n\nI apologize for the delay.\n\nHere is my suggestion for solving the problem.\n\nWe may need additional time.\n\nExamples:\n\nThe software is not working as expected.\n\nWe encountered a delay because of a technical issue.\n\nI apologize for the delay. I will complete the task as soon as possible.\n\nWe could try a different approach to solve this problem.\n\n7. Professional Email and Message Expressions\n\nUse these phrases when writing workplace messages.\n\nPurpose | Expression\nStarting an email | Dear Mr. Sharma,\nMaking a request | Could you please share the report?\nGiving information | I would like to inform you that...\nGiving an update | I am writing to provide an update on...\nApologizing | I apologize for the inconvenience.\nThanking someone | Thank you for your assistance.\nEnding politely | Best regards,\n\nExample Message\n\nSubject: Project Progress Update\n\nDear Sir,\n\nI would like to provide an update on our project. We have completed the research phase and are currently working on the prototype.\n\nWe expect to complete the initial version by Friday.\n\nThank you for your guidance.\n\nBest regards,\nAarav\n\n8. Speaking Practice\n\nAnswer these questions aloud:\n\nHow would you introduce yourself to a new colleague?\n\nHow would you ask your manager for help?\n\nHow would you explain that a task is delayed?\n\nWhat would you say during a project meeting?\n\nHow would you give an update about your work?\n\nSpeaking Challenge: Imagine you have joined a new company. Introduce yourself, describe your responsibilities, and explain what you hope to learn.",
+    "estimated_minutes": 15,
+    "order": 3
+  },
+  {
+    "stage_number": 5,
+    "topic_number": 4,
+    "title": "Health & Appointments",
+    "vocabulary": [
+      {
+        "word": "symptom",
+        "meaning": "a sign of an illness"
+      },
+      {
+        "word": "appointment",
+        "meaning": "an arranged visit"
+      },
+      {
+        "word": "prescription",
+        "meaning": "written medical instructions for medicine"
+      },
+      {
+        "word": "allergy",
+        "meaning": "a reaction to a substance"
+      },
+      {
+        "word": "recovery",
+        "meaning": "the process of becoming well"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I am have a headache.",
+        "option_b": "I have a headache.",
+        "option_c": "I has a headache.",
+        "option_d": "I having headache yesterday.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression is appropriate when contacting a clinic?",
+        "option_a": "I want doctor now.",
+        "option_b": "Give appointment.",
+        "option_c": "I would like to book an appointment.",
+        "option_d": "Doctor where tomorrow yesterday?",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"reschedule\" mean?",
+        "option_a": "To cancel everything permanently",
+        "option_b": "To arrange something for a different time",
+        "option_c": "To arrive early",
+        "option_d": "To explain a symptom",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I have been feeling unwell _____ two days.",
+        "option_a": "since",
+        "option_b": "for",
+        "option_c": "at",
+        "option_d": "by",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence correctly describes a symptom?",
+        "option_a": "My back hurts.",
+        "option_b": "My back is hurt yesterday.",
+        "option_c": "My back have hurting.",
+        "option_d": "My back does hurts.",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Who can help explain medicine-related instructions at a pharmacy?",
+        "option_a": "A ticket inspector",
+        "option_b": "A pharmacist",
+        "option_c": "A travel guide",
+        "option_d": "A receptionist at a railway station",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the most polite way to change an appointment.",
+        "option_a": "Change my time now.",
+        "option_b": "I am not coming.",
+        "option_c": "Could I reschedule my appointment, please?",
+        "option_d": "Forget my appointment.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I have had a cough _____ Monday.",
+        "option_a": "since",
+        "option_b": "for",
+        "option_c": "during",
+        "option_d": "by",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence is appropriate when informing a teacher about illness?",
+        "option_a": "I am sick, so nobody should ask anything.",
+        "option_b": "I am feeling unwell and will not be able to attend class today.",
+        "option_c": "I don't like the classroom.",
+        "option_d": "I have a prescription yesterday tomorrow.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What should you do if you do not understand medicine dosage instructions?",
+        "option_a": "Guess the dosage.",
+        "option_b": "Ignore the instructions.",
+        "option_c": "Ask a qualified healthcare professional to explain them.",
+        "option_d": "Take a random amount.",
+        "correct_answer": "C",
+        "explanation": ""
+      }
+    ],
+    "description": "Learn how to describe common health problems, make appointments, speak to a doctor, and understand basic healthcare conversations. This lesson will help you communicate clearly and politely when seeking medical assistance.",
+    "content": "Introduction\n\nLearn how to describe common health problems, make appointments, speak to a doctor, and understand basic healthcare conversations. This lesson will help you communicate clearly and politely when seeking medical assistance.\n\n1. Describing How You Feel\n\nUse simple sentences to explain how you are feeling.\n\nUseful sentence patterns:\n\nI have a headache.\n\nI have a fever.\n\nI am feeling unwell.\n\nI have a sore throat.\n\nI feel dizzy.\n\nI have been coughing since yesterday.\n\nMy stomach hurts.\n\nExamples:\n\nI have had a headache since this morning.\n\nI am feeling weak today.\n\nI have a sore throat and a cough.\n\nMy stomach has been hurting since last night.\n\nRemember:\n\nUse I have a headache, not I am having a headache in the usual way of describing the symptom.\n\nUse I feel dizzy to describe the sensation of dizziness.\n\nUse My back hurts to describe pain in your back.\n\n2. Making a Doctor's Appointment\n\nUse these expressions when contacting a clinic or hospital.\n\nUseful expressions:\n\nI would like to book an appointment.\n\nIs the doctor available today?\n\nDo you have any appointments this afternoon?\n\nWhat time should I arrive?\n\nCould I reschedule my appointment?\n\nI need to cancel my appointment.\n\nCould you confirm the appointment time?\n\nConversation\n\nReceptionist: Good morning. How can I help you?\n\nPatient: Good morning. I would like to book an appointment with the doctor.\n\nReceptionist: Certainly. Would you prefer a morning or afternoon appointment?\n\nPatient: An afternoon appointment, please.\n\nReceptionist: We have an appointment available at 3 p.m.\n\nPatient: That works for me. Thank you.\n\n3. Speaking to a Doctor\n\nWhen talking to a doctor, explain your symptoms clearly and mention when they started.\n\nUseful expressions:\n\nI have been feeling unwell for two days.\n\nThe pain started yesterday.\n\nI have had a cough since Monday.\n\nThe pain gets worse at night.\n\nI feel better after resting.\n\nI have been experiencing frequent headaches.\n\nCould you please explain what I should do next?\n\nExample Conversation\n\nDoctor: What seems to be the problem?\n\nPatient: I have had a headache since yesterday.\n\nDoctor: Have you experienced any other symptoms?\n\nPatient: I have also been feeling tired.\n\nDoctor: When did the symptoms begin?\n\nPatient: They started yesterday morning.\n\nDoctor: Thank you for explaining. Let me assess your condition.\n\nThis is an example of communication practice, not medical advice.\n\n4. Understanding Common Health Expressions\n\nExpression | Meaning\nHave a fever | Have a body temperature higher than normal\nHave a headache | Feel pain in the head\nHave a sore throat | Experience pain or irritation in the throat\nFeel dizzy | Feel as though you may lose your balance\nFeel exhausted | Feel extremely tired\nFeel nauseous | Feel as though you might vomit\nHave a cough | Cough repeatedly\nFeel better | Experience an improvement in how you feel\n\nExamples:\n\nI have a fever and a sore throat.\n\nShe feels exhausted after a long day.\n\nHe has been coughing since yesterday.\n\nI am feeling better today.\n\n5. Asking Questions at a Pharmacy\n\nYou may need to ask a pharmacist questions about medicines or prescriptions.\n\nUseful expressions:\n\nCould you help me understand this prescription?\n\nHow should I follow the instructions on this medicine?\n\nShould I take this with food?\n\nAre there any precautions I should know about?\n\nCould you explain the dosage instructions?\n\nShould I consult the doctor before taking this?\n\nConversation\n\nCustomer: Excuse me, could you explain these instructions?\n\nPharmacist: Of course. Let me explain what the prescription says.\n\nCustomer: Should I take the medicine with food?\n\nPharmacist: Please follow the prescription instructions. If anything is unclear, I can help you understand them.\n\nCustomer: Thank you for your help.\n\nImportant: Always follow the instructions of a qualified healthcare professional. Do not guess a medicine's dosage.\n\n6. Explaining Absence Because of Illness\n\nUse these sentences when informing your teacher, manager, or colleague that you are unwell.\n\nExamples:\n\nI am feeling unwell and will not be able to attend class today.\n\nI need to take a day off because I am sick.\n\nI have a doctor's appointment this afternoon.\n\nI will complete the pending work once I feel better.\n\nI apologize for the short notice.\n\nExample Message to a Teacher\n\nGood morning, Ma'am.\n\nI am feeling unwell today and will not be able to attend class. I will catch up on the missed work once I feel better.\n\nThank you for understanding.\n\n7. Rescheduling an Appointment\n\nSometimes you cannot attend an appointment at the scheduled time.\n\nUseful expressions:\n\nI am unable to attend my appointment today.\n\nCould I reschedule it for tomorrow?\n\nSomething urgent has come up.\n\nIs another time available?\n\nI apologize for the inconvenience.\n\nConversation\n\nPatient: Hello, I have an appointment scheduled for 2 p.m. today.\n\nReceptionist: Yes, how can I help you?\n\nPatient: Something urgent has come up. Could I reschedule it for tomorrow?\n\nReceptionist: Certainly. We have an opening at 11 a.m.\n\nPatient: That would be perfect. Thank you.\n\n8. Speaking Practice\n\nAnswer these questions aloud:\n\nHow would you describe a headache to a doctor?\n\nHow would you book a medical appointment?\n\nWhat would you say if you could not attend your appointment?\n\nHow would you inform your teacher that you are sick?\n\nWhat questions might you ask a pharmacist about a prescription?\n\nSpeaking Challenge: Role-play a conversation between a patient and a receptionist. Make an appointment, explain why you need to see the doctor, and confirm the appointment time.",
+    "estimated_minutes": 15,
+    "order": 4
+  },
+  {
+    "stage_number": 5,
+    "topic_number": 5,
+    "title": "Services & Daily Situations",
+    "vocabulary": [
+      {
+        "word": "enquiry",
+        "meaning": "a request for information"
+      },
+      {
+        "word": "service",
+        "meaning": "help provided to customers"
+      },
+      {
+        "word": "form",
+        "meaning": "a document with spaces to complete"
+      },
+      {
+        "word": "procedure",
+        "meaning": "an established way of doing something"
+      },
+      {
+        "word": "issue",
+        "meaning": "a problem or matter"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Which is the most polite way to ask for information?",
+        "option_a": "Tell me everything now.",
+        "option_b": "Could you please give me some information?",
+        "option_c": "Speak quickly.",
+        "option_d": "I need answers, so hurry up.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What is a receipt?",
+        "option_a": "A travel destination",
+        "option_b": "Proof that a payment has been made",
+        "option_c": "A type of bank account",
+        "option_d": "A complaint letter",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: I would like to _____ this item because it is damaged.",
+        "option_a": "return",
+        "option_b": "arrive",
+        "option_c": "depart",
+        "option_d": "attend",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"refund\" mean?",
+        "option_a": "Paying for something twice",
+        "option_b": "Returning money to a customer",
+        "option_c": "Ordering a new product",
+        "option_d": "Cancelling a meeting",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the most appropriate sentence for a customer support call.",
+        "option_a": "Fix this or else!",
+        "option_b": "I am having a problem with my account. Could you please help me?",
+        "option_c": "I do not want any explanation.",
+        "option_d": "Your company never does anything.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: Which counter should I go _____?",
+        "option_a": "at",
+        "option_b": "on",
+        "option_c": "to",
+        "option_d": "from",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does \"complaint\" mean?",
+        "option_a": "A statement expressing dissatisfaction",
+        "option_b": "A positive greeting",
+        "option_c": "A payment confirmation",
+        "option_d": "A travel booking",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "My payment has been deducted, but the transaction failed.",
+        "option_b": "My payment have deducted, but transaction fail.",
+        "option_c": "My payment was deduct, but failed transaction.",
+        "option_d": "My payment deduct yesterday tomorrow.",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "What should you do if you receive the wrong product?",
+        "option_a": "Ignore the issue in every situation.",
+        "option_b": "Explain the problem to customer support and request a suitable solution.",
+        "option_c": "Order the same product repeatedly without checking.",
+        "option_d": "Throw away the receipt immediately.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression is suitable when asking someone to investigate a problem?",
+        "option_a": "Could you please look into this matter?",
+        "option_b": "You must disappear.",
+        "option_c": "Nobody should check this.",
+        "option_d": "Forget every detail.",
+        "correct_answer": "A",
+        "explanation": ""
+      }
+    ],
+    "description": "Learn how to communicate confidently when using everyday services, such as shopping, visiting a bank, making enquiries, contacting customer support, and dealing with common problems. This lesson will help you make polite requests and explain situations clearly.",
+    "content": "Introduction\n\nLearn how to communicate confidently when using everyday services, such as shopping, visiting a bank, making enquiries, contacting customer support, and dealing with common problems. This lesson will help you make polite requests and explain situations clearly.\n\n1. Asking for Information\n\nUse polite questions when you need information from someone.\n\nUseful expressions:\n\nCould you please give me some information?\n\nI would like to know more about this service.\n\nCould you tell me where the office is?\n\nWhat are your opening hours?\n\nIs this service available today?\n\nHow long will it take?\n\nIs there anything else I need to bring?\n\nExamples:\n\nCould you tell me your opening hours?\n\nI would like to know more about the registration process.\n\nIs the service available on weekends?\n\nHow long will it take to process my application?\n\nConversation\n\nCustomer: Good morning. Could you tell me your opening hours?\n\nStaff: We are open from 9 a.m. to 5 p.m.\n\nCustomer: Are you open on Sundays?\n\nStaff: No, we are closed on Sundays.\n\nCustomer: Thank you for the information.\n\n2. Shopping and Making Payments\n\nUse these expressions while shopping or making purchases.\n\nUseful expressions:\n\nHow much does this cost?\n\nDo you have this in another size?\n\nIs there any discount available?\n\nCould I see another option?\n\nI would like to return this item.\n\nCan I pay by card?\n\nCould I have the receipt, please?\n\nExamples:\n\nHow much does this shirt cost?\n\nDo you have this product in a larger size?\n\nIs there a discount on this item?\n\nCould I pay using UPI?\n\nCould you please give me the receipt?\n\nConversation\n\nCustomer: Excuse me, how much does this bag cost?\n\nShopkeeper: It costs ₹800.\n\nCustomer: Is there any discount available?\n\nShopkeeper: Yes, we are offering a 10% discount.\n\nCustomer: Great! I would like to buy it. Can I pay by UPI?\n\nShopkeeper: Certainly.\n\n3. At the Bank\n\nThese expressions are useful when asking about basic banking services.\n\nUseful expressions:\n\nI would like to open a bank account.\n\nCould you explain the account-opening process?\n\nWhat documents do I need?\n\nI would like to update my contact details.\n\nCould you help me understand this transaction?\n\nI have a question about my account statement.\n\nHow can I report an unauthorised transaction?\n\nConversation\n\nCustomer: Good morning. I would like to open a bank account.\n\nBank Employee: Certainly. Do you have the required documents?\n\nCustomer: Could you please tell me which documents I need?\n\nBank Employee: I can provide you with the current requirements.\n\nCustomer: Thank you. Could you also explain the application process?\n\n4. Using Public Services\n\nPublic services include transport offices, post offices, government offices, and other facilities.\n\nUseful expressions:\n\nWhere can I submit this form?\n\nWhich counter should I go to?\n\nWhat documents are required?\n\nCould you help me fill out this form?\n\nHow long will the process take?\n\nWhere can I check my application status?\n\nIs there an online application option?\n\nExamples:\n\nWhere can I submit my application?\n\nWhich counter handles address changes?\n\nCould you explain how to complete this form?\n\nIs there an online option for this service?\n\nConversation\n\nVisitor: Excuse me, where can I submit this application?\n\nStaff Member: Please go to Counter 3.\n\nVisitor: Do I need to attach any documents?\n\nStaff Member: Yes. Please check the document requirements listed on the form.\n\nVisitor: Thank you for your help.\n\n5. Contacting Customer Support\n\nSometimes a product or service does not work as expected. Learn how to explain the problem politely.\n\nUseful expressions:\n\nI am having a problem with my account.\n\nMy payment has been deducted, but the transaction failed.\n\nI have not received my order yet.\n\nCould you please check the status?\n\nI would like to register a complaint.\n\nCould you provide a reference number?\n\nWhen can I expect a resolution?\n\nConversation\n\nCustomer: Hello. I am calling about an order I placed last week.\n\nSupport Agent: Certainly. What seems to be the problem?\n\nCustomer: I have not received my order yet.\n\nSupport Agent: I am sorry about that. Let me check the status.\n\nCustomer: Thank you. Could you please tell me when I can expect delivery?\n\nSupport Agent: I will provide you with the latest available information.\n\n6. Returning or Exchanging an Item\n\nSometimes you need to return a product or exchange it for another one.\n\nUseful expressions:\n\nI would like to return this item.\n\nI received the wrong product.\n\nThe item is damaged.\n\nCould I exchange it for another size?\n\nWhat is your return policy?\n\nHow long does a refund take?\n\nI have the receipt with me.\n\nExamples:\n\nI received the wrong item. Could you help me exchange it?\n\nThe product is damaged, so I would like to return it.\n\nCould you explain your refund policy?\n\nI have the receipt with me.\n\n7. Making Complaints Politely\n\nWhen something goes wrong, explain the issue clearly without being rude.\n\nUseful sentence patterns:\n\nI am afraid there is a problem with ___.\n\nI would like to bring an issue to your attention.\n\nI understand the situation, but ___.\n\nCould you please look into this matter?\n\nI would appreciate it if you could resolve this issue.\n\nThank you for looking into the matter.\n\nExamples:\n\nInstead of: \"Your service is terrible!\"\n\nSay: \"I am disappointed with the service and would appreciate your help in resolving the issue.\"\n\nInstead of: \"You sent the wrong thing!\"\n\nSay: \"I received a different item from the one I ordered. Could you please help me resolve this?\"\n\nRemember: Be clear, calm, and respectful when making a complaint.\n\n8. Speaking Practice\n\nAnswer these questions aloud:\n\nHow would you ask about the price of a product?\n\nHow would you ask for help at a bank?\n\nWhat would you say if you received the wrong order?\n\nHow would you ask about a public service?\n\nWhat would you say if a payment failed?\n\nHow would you politely make a complaint?\n\nWhat questions would you ask before returning a product?\n\nHow would you thank someone for helping you?\n\nSpeaking Challenge: Imagine you purchased a product online, but the wrong item arrived. Explain the problem to a customer support agent, request a replacement, and ask when you can expect it.",
+    "estimated_minutes": 15,
+    "order": 5
+  },
+  {
+    "stage_number": 6,
+    "topic_number": 1,
+    "title": "Giving Opinions",
+    "vocabulary": [
+      {
+        "word": "opinion",
+        "meaning": "a personal view or belief"
+      },
+      {
+        "word": "viewpoint",
+        "meaning": "a way of thinking about something"
+      },
+      {
+        "word": "perspective",
+        "meaning": "a particular way of considering an issue"
+      },
+      {
+        "word": "evidence",
+        "meaning": "information that supports a claim"
+      },
+      {
+        "word": "convincing",
+        "meaning": "able to make someone believe something"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Which phrase is commonly used to introduce a personal opinion?",
+        "option_a": "Once upon a time",
+        "option_b": "In my opinion",
+        "option_c": "At the bus stop",
+        "option_d": "See you tomorrow",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I think teamwork is important.",
+        "option_b": "I thinks teamwork is important.",
+        "option_c": "I thinking teamwork is important.",
+        "option_d": "I thought teamwork important is.",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “I prefer tea ___ coffee.”",
+        "option_a": "than",
+        "option_b": "from",
+        "option_c": "to",
+        "option_d": "over than",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence gives a reason?",
+        "option_a": "I like this course.",
+        "option_b": "This course is a course.",
+        "option_c": "I like this course because it is practical.",
+        "option_d": "The course is available.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does “viewpoint” mean?",
+        "option_a": "A type of building",
+        "option_b": "A way of thinking about something",
+        "option_c": "A written examination",
+        "option_d": "A daily routine",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “I would rather walk ___ take a taxi.”",
+        "option_a": "than",
+        "option_b": "to",
+        "option_c": "because",
+        "option_d": "from",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression shows uncertainty?",
+        "option_a": "I am absolutely certain.",
+        "option_b": "There is no doubt.",
+        "option_c": "I am not entirely sure.",
+        "option_d": "I strongly guarantee it.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence expresses a personal belief?",
+        "option_a": "The classroom has twenty chairs.",
+        "option_b": "I believe every student can improve with practice.",
+        "option_c": "The class starts at nine.",
+        "option_d": "The book is on the table.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does “justify” mean?",
+        "option_a": "To explain or defend something with reasons",
+        "option_b": "To forget something completely",
+        "option_c": "To disagree without listening",
+        "option_d": "To change the subject",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which response gives a clear opinion with a reason?",
+        "option_a": "I like it.",
+        "option_b": "Maybe, perhaps, sometimes.",
+        "option_c": "In my opinion, exercise is important because it supports good health.",
+        "option_d": "What is your name?",
+        "correct_answer": "C",
+        "explanation": ""
+      }
+    ],
+    "description": "Everyone has opinions about different things, such as education, movies, technology, and daily life. In this lesson, you will learn how to express your opinions clearly, explain your point of view, and give reasons to support your ideas.",
+    "content": "Introduction\n\nEveryone has opinions about different things, such as education, movies, technology, and daily life. In this lesson, you will learn how to express your opinions clearly, explain your point of view, and give reasons to support your ideas.\n\nSection 1: What Is an Opinion?\n\nAn opinion is what someone thinks or believes about something. Different people can have different opinions about the same topic.\n\nExamples:\n\nI think online learning is useful.\n\nIn my opinion, reading books is a good habit.\n\nI believe everyone should learn communication skills.\n\nPersonally, I prefer studying in the morning.\n\nSection 2: Useful Phrases for Giving Opinions\n\nPhrase | Example\nI think… | I think this book is interesting.\nI believe… | I believe practice improves confidence.\nIn my opinion… | In my opinion, teamwork is important.\nFrom my point of view… | From my point of view, online classes save time.\nPersonally, I think… | Personally, I think exercise is necessary.\nAs far as I am concerned… | As far as I am concerned, honesty matters most.\nI feel that… | I feel that students need practical knowledge.\nThe way I see it… | The way I see it, communication builds relationships.\n\nSection 3: Giving Reasons for Your Opinion\n\nA strong opinion becomes clearer when you explain why you think something.\n\nUse these expressions:\n\nBecause: I like this course because it is practical.\n\nThe main reason is: The main reason is that it saves time.\n\nOne reason is that: One reason is that exercise improves health.\n\nThis is because: I prefer online notes. This is because they are easy to access.\n\nFor example: Technology is helpful. For example, students can attend online classes.\n\nCompare:\n\n❌ I like group projects.\n\n✅ I like group projects because they help students learn teamwork.\n\nSection 4: Expressing Preferences\n\nUse these structures to explain what you like more.\n\nStructure 1: I prefer + noun/verb-ing + to + noun/verb-ing.\n\nI prefer tea to coffee.\n\nI prefer reading to watching television.\n\nI prefer studying in the morning to studying late at night.\n\nStructure 2: I would rather + base verb + than + base verb.\n\nI would rather walk than take a taxi.\n\nI would rather study now than worry later.\n\nStructure 3: I prefer + noun + because + reason.\n\nI prefer practical learning because it helps me understand concepts better.\n\nSection 5: Expressing an Opinion Confidently\n\nYou can express your opinion without sounding rude or overly certain.\n\nSituation | Expression\nSharing a personal view | I think this is a good idea.\nShowing confidence | I strongly believe that practice is essential.\nGiving a personal preference | Personally, I prefer working in a team.\nRecognizing another view | I understand that point, but I think differently.\nShowing uncertainty | I am not entirely sure, but I think this could work.\n\nRemember: An opinion is not always a fact. Use phrases such as I think, I believe, and in my opinion when expressing personal views.\n\nSection 6: Real-Life Conversation\n\nSituation: Two students discussing online learning\n\nA: What do you think about online learning?\n\nB: In my opinion, online learning is very useful.\n\nA: Why do you think so?\n\nB: I believe it saves time and gives students access to many resources.\n\nA: That's true, but I think classroom learning provides better interaction.\n\nB: I understand your point. Personally, I prefer a combination of both.",
+    "estimated_minutes": 15,
+    "order": 1
+  },
+  {
+    "stage_number": 6,
+    "topic_number": 2,
+    "title": "Agreeing & Disagreeing",
+    "vocabulary": [
+      {
+        "word": "agreement",
+        "meaning": "a shared opinion"
+      },
+      {
+        "word": "disagreement",
+        "meaning": "a difference of opinion"
+      },
+      {
+        "word": "partly",
+        "meaning": "to some degree, not completely"
+      },
+      {
+        "word": "acknowledge",
+        "meaning": "recognise a point"
+      },
+      {
+        "word": "respectfully",
+        "meaning": "in a polite and considerate way"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Which expression shows strong agreement?",
+        "option_a": "I have no idea.",
+        "option_b": "I couldn't agree more.",
+        "option_c": "I don't understand.",
+        "option_d": "Let me leave.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which is the most polite way to disagree?",
+        "option_a": "You're stupid.",
+        "option_b": "Stop talking.",
+        "option_c": "I respectfully disagree.",
+        "option_d": "Your opinion is useless.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does “I agree to some extent” mean?",
+        "option_a": "I completely disagree.",
+        "option_b": "I agree with everything.",
+        "option_c": "I partly agree.",
+        "option_d": "I do not understand the topic.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “I see your point, ___ I have a different opinion.”",
+        "option_a": "because",
+        "option_b": "but",
+        "option_c": "so that",
+        "option_d": "unless of",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which question invites someone to share their opinion?",
+        "option_a": "Where is your bag?",
+        "option_b": "What do you think about this idea?",
+        "option_c": "What time is it?",
+        "option_d": "Where did you park?",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What is a debate?",
+        "option_a": "A discussion involving different opinions",
+        "option_b": "A type of meal",
+        "option_c": "A daily schedule",
+        "option_d": "A written receipt",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the best response to: “Group study helps students learn.”",
+        "option_a": "That's stupid.",
+        "option_b": "I agree because students can learn from one another.",
+        "option_c": "I don't care about anything.",
+        "option_d": "Change the subject immediately.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression recognizes another person's argument before disagreeing?",
+        "option_a": "You're always wrong.",
+        "option_b": "I see your point, but…",
+        "option_c": "I refuse to listen.",
+        "option_d": "There is nothing to discuss.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does “compromise” mean?",
+        "option_a": "To end a conversation without listening",
+        "option_b": "To insist that only one person is right",
+        "option_c": "To reach an agreement by each side giving up something",
+        "option_d": "To repeat the same argument",
+        "correct_answer": "C",
+        "explanation": ""
+      }
+    ],
+    "description": "In everyday conversations, people do not always share the same opinions. Learning to agree and disagree politely helps you communicate confidently without hurting others' feelings. In this lesson, you will learn expressions for showing agreement, expressing different views, and responding respectfully.",
+    "content": "Introduction\n\nIn everyday conversations, people do not always share the same opinions. Learning to agree and disagree politely helps you communicate confidently without hurting others' feelings. In this lesson, you will learn expressions for showing agreement, expressing different views, and responding respectfully.\n\nSection 1: Expressing Agreement\n\nUse these expressions when you have the same opinion as someone.\n\nExpression | Example\nI agree. | I agree. Exercise is important.\nI completely agree. | I completely agree with your suggestion.\nYou're absolutely right. | You're absolutely right about teamwork.\nThat's a good point. | That's a good point about saving money.\nI feel the same way. | I feel the same way about online learning.\nExactly! | Exactly! We need more practice.\nI couldn't agree more. | I couldn't agree more about the value of education.\nThat's true. | That's true. We should manage our time well.\n\nTip: “I couldn't agree more” means you strongly agree with someone.\n\nSection 2: Expressing Disagreement Politely\n\nYou can disagree without being rude.\n\nExpression | Example\nI see your point, but… | I see your point, but I prefer another approach.\nI understand what you mean, but… | I understand what you mean, but we need more time.\nI respectfully disagree. | I respectfully disagree with that decision.\nI'm not sure I agree. | I'm not sure I agree with this plan.\nI have a different opinion. | I have a different opinion about this topic.\nThat's one way to look at it, but… | That's one way to look at it, but there may be another solution.\nI agree to some extent, but… | I agree to some extent, but the plan needs improvement.\n\nAvoid: “You're wrong!” or “That's stupid!”\n\nBetter: “I understand your point, but I see the situation differently.”\n\nSection 3: Agreeing Partly\n\nSometimes you agree with only part of what someone says.\n\nUseful expressions:\n\nI agree to some extent.\n\nYou have a point, but…\n\nI agree with the idea, although…\n\nThat's partly true.\n\nI agree with you on that point.\n\nExamples:\n\nI agree to some extent, but we should also consider the cost.\n\nThat's partly true, although the situation is more complicated.\n\nI agree with your idea, but I would change a few details.\n\nSection 4: Asking Whether Someone Agrees\n\nUse these questions to invite others into a conversation.\n\nDo you agree?\n\nWhat do you think about this?\n\nWould you agree with me?\n\nDon't you think this is useful?\n\nHow do you feel about this idea?\n\nWhat's your opinion on this matter?\n\nExamples:\n\nA: I think students should learn practical skills. Do you agree?\n\nB: Yes, I completely agree.\n\nA: What do you think about group study?\n\nB: I think it is helpful, provided everyone participates.\n\nSection 5: Agreeing and Disagreeing with Reasons\n\nAdding a reason makes your response more meaningful.\n\nAgreeing:\n\n“I agree that students should read regularly because reading improves vocabulary.”\n\nDisagreeing:\n\n“I understand your point, but I think students also need practical experience.”\n\nPartly agreeing:\n\n“I agree that technology makes learning easier, but students should avoid distractions.”\n\nSection 6: Real-Life Conversation\n\nSituation: Two friends discussing mobile phones in college\n\nA: I think students should be allowed to use mobile phones in college.\n\nB: I agree to some extent, but phones can distract students during lectures.\n\nA: That's a good point. However, phones can also help us research information.\n\nB: You're right about that. I think phones should be allowed for educational purposes.\n\nA: I completely agree with you!",
+    "estimated_minutes": 15,
+    "order": 2
+  },
+  {
+    "stage_number": 6,
+    "topic_number": 3,
+    "title": "Comparisons",
+    "vocabulary": [
+      {
+        "word": "comparison",
+        "meaning": "an examination of similarities or differences"
+      },
+      {
+        "word": "whereas",
+        "meaning": "while, showing contrast"
+      },
+      {
+        "word": "similar",
+        "meaning": "almost the same"
+      },
+      {
+        "word": "whereas",
+        "meaning": "used to contrast two facts"
+      },
+      {
+        "word": "superior",
+        "meaning": "better in quality or position"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Complete the sentence: “My brother is ___ than me.”",
+        "option_a": "tall",
+        "option_b": "tallest",
+        "option_c": "taller",
+        "option_d": "more tall",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct comparative form of “expensive.”",
+        "option_a": "Expensiver",
+        "option_b": "More expensive",
+        "option_c": "Most expensive than",
+        "option_d": "Expensivest",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “This is ___ restaurant in the town.”",
+        "option_a": "better",
+        "option_b": "the best",
+        "option_c": "more good",
+        "option_d": "best than",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What is the comparative form of “good”?",
+        "option_a": "Gooder",
+        "option_b": "More good",
+        "option_c": "Best",
+        "option_d": "Better",
+        "correct_answer": "D",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "This bag is more lighter than mine.",
+        "option_b": "This bag is lighter than mine.",
+        "option_c": "This bag is lightest than mine.",
+        "option_d": "This bag is most light than mine.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “My room is as large ___ yours.”",
+        "option_a": "than",
+        "option_b": "from",
+        "option_c": "as",
+        "option_d": "more",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence shows a difference?",
+        "option_a": "Both shirts are blue.",
+        "option_b": "My answer is the same as yours.",
+        "option_c": "This phone is different from my old phone.",
+        "option_d": "Both students arrived together.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct superlative form of “easy.”",
+        "option_a": "More easy",
+        "option_b": "Easier",
+        "option_c": "The easiest",
+        "option_d": "The most easier",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “I have ___ money today than yesterday.”",
+        "option_a": "fewer",
+        "option_b": "less",
+        "option_c": "least",
+        "option_d": "little than",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence compares two options and gives a contrast?",
+        "option_a": "I bought a book yesterday.",
+        "option_b": "The weather is pleasant today.",
+        "option_c": "While the bus is cheaper, the train is faster.",
+        "option_d": "My friend is studying now.",
+        "correct_answer": "C",
+        "explanation": ""
+      }
+    ],
+    "description": "Comparisons help you explain how people, places, objects, and experiences are similar or different. You use comparisons while shopping, choosing a course, discussing products, and making everyday decisions. In this lesson, you will learn how to compare things accurately and naturally.",
+    "content": "Introduction\n\nComparisons help you explain how people, places, objects, and experiences are similar or different. You use comparisons while shopping, choosing a course, discussing products, and making everyday decisions. In this lesson, you will learn how to compare things accurately and naturally.\n\nSection 1: Comparing Two Things\n\nUse a comparative adjective when comparing two people or things.\n\nStructure: Subject + verb + comparative adjective + than + comparison.\n\nExamples:\n\nMy bag is lighter than yours.\n\nThis book is more interesting than that one.\n\nEnglish is easier for me than mathematics.\n\nToday's weather is warmer than yesterday's.\n\nThis route is shorter than the other route.\n\nSection 2: Short Adjectives\n\nFor many short adjectives, add -er.\n\nAdjective | Comparative | Example\nTall | Taller | Ali is taller than Aman.\nSmall | Smaller | This room is smaller than that one.\nFast | Faster | A train is faster than a bicycle.\nCheap | Cheaper | This pen is cheaper than that one.\nCold | Colder | Today is colder than yesterday.\n\nSpelling rules:\n\nIf an adjective ends in -e, add -r: large → larger.\n\nFor many consonant-vowel-consonant adjectives, double the final consonant: big → bigger.\n\nIf an adjective ends in consonant + y, change y to i and add -er: happy → happier.\n\nSection 3: Long Adjectives\n\nFor many longer adjectives, use more + adjective.\n\nAdjective | Comparative | Example\nBeautiful | More beautiful | This garden is more beautiful than that one.\nExpensive | More expensive | This phone is more expensive than mine.\nComfortable | More comfortable | This chair is more comfortable than that chair.\nDifficult | More difficult | This question is more difficult than the last one.\nInteresting | More interesting | This film is more interesting than the previous film.\n\n❌ This phone is expensiver than mine.\n\n✅ This phone is more expensive than mine.\n\nSection 4: Comparing Three or More Things\n\nUse the superlative form to identify the highest or lowest degree within a group.\n\nStructure: Subject + verb + the + superlative adjective.\n\nExamples:\n\nMount Everest is the highest mountain above sea level.\n\nThis is the cheapest shirt in the shop.\n\nShe is the tallest student in the class.\n\nThis is the most interesting book I have read.\n\nHe is the most experienced person on our team.\n\nCommon forms:\n\nAdjective | Comparative | Superlative\nTall | Taller | The tallest\nSmall | Smaller | The smallest\nFast | Faster | The fastest\nEasy | Easier | The easiest\nBeautiful | More beautiful | The most beautiful\nDifficult | More difficult | The most difficult\n\nSection 5: Irregular Comparisons\n\nSome adjectives change completely.\n\nAdjective | Comparative | Superlative\nGood | Better | Best\nBad | Worse | Worst\nFar | Farther/Further | Farthest/Furthest\nLittle (amount) | Less | Least\nMuch/Many | More | Most\n\nExamples:\n\nThis restaurant is better than the one we visited yesterday.\n\nMy result is worse than I expected.\n\nShe is the best player on the team.\n\nI have less time today than I had yesterday.\n\nThis is the most useful feature of the app.\n\nSection 6: Showing Similarity and Equality\n\nUse as + adjective + as to show that two things have the same degree of a quality.\n\nExamples:\n\nMy bag is as heavy as yours.\n\nThis room is as large as that one.\n\nHe is as confident as his brother.\n\nUse not as + adjective + as to show that something has a lower degree of a quality.\n\nExamples:\n\nThis road is not as wide as the main road.\n\nMy phone is not as expensive as yours.\n\nToday's test was not as difficult as yesterday's test.\n\nOther useful expressions:\n\nSimilar to: My opinion is similar to yours.\n\nDifferent from: This design is different from the previous one.\n\nThe same as: My answer is the same as yours.\n\nSection 7: Comparing Options in Real Life\n\nWhen comparing choices, consider more than one feature.\n\nExample: Choosing a laptop\n\nLaptop A is cheaper than Laptop B.\n\nLaptop B is faster than Laptop A.\n\nLaptop A is not as heavy as Laptop B.\n\nLaptop B has the best performance of the two models being considered, according to the available specifications.\n\nUseful patterns:\n\nCompared with…, …\n\nIn contrast to…, …\n\nWhile A is…, B is…\n\nBoth options are…, but…\n\nThe main difference is…\n\nExample:\n\n“Compared with the first course, the second course is more practical. While the first course is cheaper, the second course offers more projects.”\n\nSection 8: Real-Life Conversation\n\nSituation: Two students comparing travel options\n\nA: Should we travel by bus or train?\n\nB: I think the train is more comfortable than the bus.\n\nA: That's true, but the bus is cheaper.\n\nB: Yes, and the train is usually faster on this route.\n\nA: Which option is the best for our budget?\n\nB: The bus is the most affordable option, but the train may save us time.\n\nA: Let's compare the ticket prices before deciding.",
+    "estimated_minutes": 15,
+    "order": 3
+  },
+  {
+    "stage_number": 6,
+    "topic_number": 4,
+    "title": "Suggestions & Advice",
+    "vocabulary": [
+      {
+        "word": "suggestion",
+        "meaning": "an idea offered for consideration"
+      },
+      {
+        "word": "advice",
+        "meaning": "guidance about what to do"
+      },
+      {
+        "word": "option",
+        "meaning": "one possible choice"
+      },
+      {
+        "word": "recommend",
+        "meaning": "advise as a good choice"
+      },
+      {
+        "word": "practical",
+        "meaning": "useful and realistic"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Choose the correct suggestion.",
+        "option_a": "Let's studying together.",
+        "option_b": "Let's study together.",
+        "option_c": "Let's studied together.",
+        "option_d": "Let's to study together.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “How about ___ a movie tonight?”",
+        "option_a": "watch",
+        "option_b": "watched",
+        "option_c": "watching",
+        "option_d": "to watching",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence gives advice?",
+        "option_a": "You should practise every day.",
+        "option_b": "You practise yesterday.",
+        "option_c": "Are you at home?",
+        "option_d": "I am eating lunch.",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “You shouldn't ___ during the presentation.”",
+        "option_a": "interrupted",
+        "option_b": "interrupting",
+        "option_c": "interrupts",
+        "option_d": "interrupt",
+        "correct_answer": "D",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression makes a polite suggestion?",
+        "option_a": "Do exactly what I say!",
+        "option_b": "You might want to check the instructions.",
+        "option_c": "You never listen.",
+        "option_d": "Your idea is useless.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I suggest to leave early.",
+        "option_b": "I suggest leaving early.",
+        "option_c": "I suggest left early.",
+        "option_d": "I suggest leaves early.",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does “alternative” mean?",
+        "option_a": "A final examination",
+        "option_b": "A problem with no answer",
+        "option_c": "Another possible choice",
+        "option_d": "A type of greeting",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which expression is used to give stronger advice?",
+        "option_a": "Had better",
+        "option_b": "Used to",
+        "option_c": "Would like",
+        "option_d": "Can swim",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose a polite way to decline a suggestion.",
+        "option_a": "That's a terrible idea!",
+        "option_b": "Stop suggesting things.",
+        "option_c": "Thanks, but I have another plan.",
+        "option_d": "I don't care what you think.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “If I were you, I ___ speak to the teacher.”",
+        "option_a": "will",
+        "option_b": "would",
+        "option_c": "am",
+        "option_d": "have",
+        "correct_answer": "B",
+        "explanation": ""
+      }
+    ],
+    "description": "We often need to suggest ideas, recommend solutions, or give advice to friends, classmates, and colleagues. Using the right expressions helps us sound helpful and respectful. In this lesson, you will learn how to make suggestions, give advice, and respond to recommendations in everyday situations.",
+    "content": "Introduction\n\nWe often need to suggest ideas, recommend solutions, or give advice to friends, classmates, and colleagues. Using the right expressions helps us sound helpful and respectful. In this lesson, you will learn how to make suggestions, give advice, and respond to recommendations in everyday situations.\n\nSection 1: Making Suggestions with “Let's”\n\nUse Let's + base verb to suggest doing something together.\n\nExamples:\n\nLet's study together.\n\nLet's take a short break.\n\nLet's discuss the project.\n\nLet's try another method.\n\nLet's practise speaking English every day.\n\nTo make a negative suggestion, use Let's not + base verb.\n\nExamples:\n\nLet's not waste time.\n\nLet's not make a decision too quickly.\n\nLet's not forget the meeting.\n\nSection 2: Using “Why Don't We…?” and “How About…?”\n\nThese expressions are useful for suggesting ideas.\n\nWhy don't we + base verb?\n\nWhy don't we visit the library?\n\nWhy don't we practise together?\n\nWhy don't we ask the teacher for help?\n\nHow about + noun or verb-ing?\n\nHow about a cup of tea?\n\nHow about watching an English movie?\n\nHow about studying for one hour?\n\nWhat about + noun or verb-ing?\n\nWhat about going by bus?\n\nWhat about the cheaper option?\n\nWhat about meeting after class?\n\nRemember:\n\n✅ How about going for a walk?\n\n❌ How about go for a walk?\n\nSection 3: Giving Advice with “Should” and “Ought To”\n\nUse should + base verb to give advice.\n\nExamples:\n\nYou should practise English every day.\n\nYou should speak slowly during your presentation.\n\nYou should get enough sleep before the exam.\n\nUse shouldn't + base verb to advise against something.\n\nExamples:\n\nYou shouldn't skip your meals.\n\nYou shouldn't interrupt people.\n\nYou shouldn't leave your work until the last minute.\n\nOught to + base verb has a similar meaning to should.\n\nExamples:\n\nYou ought to apologise for the mistake.\n\nYou ought to prepare before the interview.\n\nSection 4: Stronger Advice with “Had Better”\n\nUse had better + base verb when you want to emphasize that something is advisable, often because there may be a negative consequence otherwise.\n\nExamples:\n\nYou had better leave now, or you may miss the bus.\n\nWe had better check the details before submitting the form.\n\nYou had better save your work before closing the computer.\n\nNegative form: had better not + base verb.\n\nExample:\n\nYou had better not share your password with anyone.\n\nNote: “Had better” can sound stronger than “should.”\n\nSection 5: Making Polite Recommendations\n\nThese expressions help you recommend something without sounding forceful.\n\nExpression | Example\nI suggest… | I suggest taking regular breaks.\nI recommend… | I recommend this book for beginners.\nYou might want to… | You might want to revise the important topics first.\nIt would be a good idea to… | It would be a good idea to practise before the interview.\nIf I were you, I would… | If I were you, I would ask for clarification.\nHave you considered…? | Have you considered joining a speaking club?\nYou could try… | You could try listening to English podcasts.\n\nGrammar patterns:\n\nSuggest + verb-ing: I suggest leaving early.\n\nRecommend + noun: I recommend this course.\n\nRecommend + verb-ing: I recommend practising daily.\n\nYou should + base verb: You should practise daily.\n\nYou might want to + base verb: You might want to check the timetable.\n\nSection 6: Responding to Suggestions\n\nYou can accept or decline suggestions politely.\n\nAccepting:\n\nThat's a great idea!\n\nThat sounds good.\n\nSure, let's do that.\n\nThanks for the suggestion.\n\nI think that could work.\n\nDeclining politely:\n\nThanks, but I have another plan.\n\nThat's a good idea, but I'm busy today.\n\nI appreciate the suggestion, but I would prefer another option.\n\nPerhaps we could try that another time.\n\nSection 7: Real-Life Conversation\n\nSituation: A student is nervous about a presentation.\n\nA: I'm really nervous about my presentation tomorrow.\n\nB: You should practise it a few times before going to bed.\n\nA: That's a good idea. What else can I do?\n\nB: You could record yourself and listen to the recording.\n\nA: I haven't tried that before.\n\nB: I recommend it. It can help you notice where you need to improve.\n\nA: Thanks for the advice!\n\nB: You're welcome. You'll feel more confident with practice.",
+    "estimated_minutes": 15,
+    "order": 4
+  },
+  {
+    "stage_number": 6,
+    "topic_number": 5,
+    "title": "Feelings & Emotions",
+    "vocabulary": [
+      {
+        "word": "relieved",
+        "meaning": "feeling better after worry ends"
+      },
+      {
+        "word": "frustrated",
+        "meaning": "upset because something is difficult"
+      },
+      {
+        "word": "delighted",
+        "meaning": "very pleased"
+      },
+      {
+        "word": "anxious",
+        "meaning": "worried or uneasy"
+      },
+      {
+        "word": "disappointed",
+        "meaning": "unhappy because expectations were not met"
+      }
+    ],
+    "quiz_questions": [
+      {
+        "question_text": "Which word describes feeling worried before an interview?",
+        "option_a": "Relaxed",
+        "option_b": "Nervous",
+        "option_c": "Delighted",
+        "option_d": "Grateful",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “I feel happy ___ I passed my examination.”",
+        "option_a": "because",
+        "option_b": "although",
+        "option_c": "unless",
+        "option_d": "despite",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does “relieved” mean?",
+        "option_a": "Feeling angry about a mistake",
+        "option_b": "Feeling uncertain about a decision",
+        "option_c": "Feeling better after worry or stress has ended",
+        "option_d": "Feeling jealous of another person",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Choose the correct sentence.",
+        "option_a": "I am feel nervous.",
+        "option_b": "I feeling nervous.",
+        "option_c": "I feels nervous.",
+        "option_d": "I feel nervous.",
+        "correct_answer": "D",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which word describes feeling thankful?",
+        "option_a": "Guilty",
+        "option_b": "Grateful",
+        "option_c": "Confused",
+        "option_d": "Frustrated",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Someone tells you they are disappointed about their result. What is the most empathetic response?",
+        "option_a": "That's your problem.",
+        "option_b": "You should stop talking.",
+        "option_c": "I'm sorry things didn't go as expected.",
+        "option_d": "Your feelings are unimportant.",
+        "correct_answer": "C",
+        "explanation": ""
+      },
+      {
+        "question_text": "Complete the sentence: “The unexpected delay made me feel ___ because I was already late.”",
+        "option_a": "frustration",
+        "option_b": "frustrated",
+        "option_c": "frustratingly",
+        "option_d": "frustrate",
+        "correct_answer": "B",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence expresses a feeling without directly blaming another person?",
+        "option_a": "You always ruin everything.",
+        "option_b": "You never understand anything.",
+        "option_c": "Everything is your fault.",
+        "option_d": "I feel upset when my concerns are not heard.",
+        "correct_answer": "D",
+        "explanation": ""
+      },
+      {
+        "question_text": "What does “overwhelmed” mean?",
+        "option_a": "Feeling that there is too much to handle",
+        "option_b": "Feeling completely relaxed",
+        "option_c": "Feeling thankful for a gift",
+        "option_d": "Feeling excited about a holiday",
+        "correct_answer": "A",
+        "explanation": ""
+      },
+      {
+        "question_text": "Which sentence shows empathy?",
+        "option_a": "I don't care how you feel.",
+        "option_b": "You should never feel that way.",
+        "option_c": "That sounds difficult. Would you like to talk about it?",
+        "option_d": "Stop thinking about your problems.",
+        "correct_answer": "C",
+        "explanation": ""
+      }
+    ],
+    "description": "Feelings are an important part of everyday communication. Being able to describe your emotions helps you express yourself clearly, explain your reactions, and understand other people better. In this lesson, you will learn useful words and expressions for describing emotions in personal, academic, and social situations.",
+    "content": "Introduction\n\nFeelings are an important part of everyday communication. Being able to describe your emotions helps you express yourself clearly, explain your reactions, and understand other people better. In this lesson, you will learn useful words and expressions for describing emotions in personal, academic, and social situations.\n\nSection 1: Common Feelings and Emotions\n\nEmotion | Meaning | Example\nHappy | Feeling pleased | I feel happy about my result.\nSad | Feeling unhappy | She felt sad after saying goodbye.\nAngry | Feeling strong displeasure | He was angry about the unfair decision.\nExcited | Feeling enthusiastic about something | I'm excited about the college event.\nNervous | Feeling worried or anxious | I feel nervous before interviews.\nRelaxed | Feeling calm and comfortable | I feel relaxed after a walk.\nDisappointed | Feeling unhappy because something was not as expected | I was disappointed with my score.\nProud | Feeling pleased about an achievement | I'm proud of my progress.\nEmbarrassed | Feeling uncomfortable or self-conscious | She felt embarrassed after forgetting his name.\nConfused | Unable to understand something clearly | I'm confused about these instructions.\n\nSection 2: How to Describe Your Feelings\n\nUse these common structures.\n\nStructure 1: I feel + adjective.\n\nI feel confident.\n\nI feel nervous.\n\nI feel disappointed.\n\nStructure 2: I am + adjective.\n\nI am excited about the trip.\n\nI am worried about the exam.\n\nI am grateful for your help.\n\nStructure 3: I feel + adjective + because…\n\nI feel happy because I passed the test.\n\nI feel nervous because I have an interview tomorrow.\n\nI feel disappointed because the event was cancelled.\n\nStructure 4: It makes me feel + adjective.\n\nListening to music makes me feel relaxed.\n\nPositive feedback makes me feel confident.\n\nBeing ignored makes me feel upset.\n\nSection 3: Expressing Different Levels of Emotion\n\nYou can use adverbs to explain how strongly you feel.\n\nExpression | Example\nA little | I'm a little nervous.\nSlightly | I'm slightly worried about the result.\nQuite | I'm quite excited about the trip.\nVery | I'm very happy with my progress.\nReally | I'm really grateful for your support.\nExtremely | I'm extremely proud of our team's achievement.\nAbsolutely | I'm absolutely delighted with the news.\n\nNote: Some adjectives commonly pair with particular adverbs. For example, “absolutely delighted” sounds natural, while “very delighted” is less common in many contexts.\n\nSection 4: Positive Emotions\n\nUse these words to communicate positive feelings.\n\nWord | Meaning | Example\nGrateful | Feeling thankful | I'm grateful for your support.\nConfident | Believing in your own ability | I feel confident about my presentation.\nRelieved | Feeling better after worry or stress has ended | I'm relieved that the exam is over.\nMotivated | Feeling eager to take action | I feel motivated to improve my English.\nDelighted | Very pleased | I'm delighted to hear the news.\nHopeful | Expecting something good may happen | I'm hopeful about the future.\n\nSection 5: Negative and Difficult Emotions\n\nUse these words to explain difficult feelings.\n\nWord | Meaning | Example\nAnxious | Worried or uneasy about something | I'm anxious about the interview.\nFrustrated | Annoyed because something is difficult or not working | I'm frustrated because the app isn't working.\nOverwhelmed | Feeling that there is too much to handle | I feel overwhelmed by all the assignments.\nLonely | Feeling alone or lacking companionship | He felt lonely in the new city.\nGuilty | Feeling that you have done something wrong | I felt guilty for missing the meeting.\nInsecure | Lacking confidence or feeling uncertain about yourself | She feels insecure when speaking in public.\n\nSection 6: Explaining Feelings Without Blaming Others\n\nGood communication means describing your feelings respectfully.\n\nInstead of saying:\n\n❌ “You always make me angry!”\n\nTry saying:\n\n✅ “I feel upset when my concerns are not heard.”\n\nInstead of:\n\n❌ “You don't care about me!”\n\nTry saying:\n\n✅ “I feel ignored when I don't receive a response.”\n\nInstead of:\n\n❌ “This is all your fault!”\n\nTry saying:\n\n✅ “I'm frustrated with the situation. Can we discuss how to solve it?”\n\nUseful structure:\n\n“I feel ___ when ___ because ___.”\n\nExamples:\n\nI feel worried when plans change suddenly because I need time to prepare.\n\nI feel disappointed when a promise is broken because trust is important to me.\n\nI feel appreciated when people acknowledge my efforts.\n\nThis approach helps you explain your feelings without immediately blaming another person.\n\nSection 7: Talking About Other People's Feelings\n\nYou can describe how another person may feel, while remembering that you cannot always know their emotions for certain.\n\nExamples:\n\nShe seems nervous about the interview.\n\nHe looks excited about the competition.\n\nThey might feel disappointed about the result.\n\nYou seem worried. Would you like to talk about it?\n\nI can understand why you feel frustrated.\n\nUseful expressions:\n\nYou seem…\n\nYou look…\n\nI imagine you might feel…\n\nI can understand why…\n\nWould you like to talk about it?\n\nSection 8: Responding to Someone's Feelings\n\nWhen someone shares an emotion, respond with empathy.\n\nSituation | Helpful Response\nSomeone feels nervous | It's understandable to feel nervous.\nSomeone feels disappointed | I'm sorry things didn't go as expected.\nSomeone shares good news | That's wonderful! I'm happy for you.\nSomeone feels overwhelmed | Would it help to break the work into smaller tasks?\nSomeone is grateful | You're welcome. I'm glad I could help.\nSomeone feels frustrated | That sounds difficult. Let's see what we can do.\n\nSection 9: Real-Life Conversation\n\nSituation: Two friends discussing an upcoming interview\n\nA: How are you feeling about your interview tomorrow?\n\nB: Honestly, I'm quite nervous.\n\nA: That's understandable. Interviews can be stressful.\n\nB: I'm worried that I might forget my answers.\n\nA: You could practise a few common questions tonight.\n\nB: That's a good idea. I think I'll feel more confident after practising.\n\nA: Exactly. And remember, you don't have to give perfect answers. Just be clear and genuine.\n\nB: Thanks. I already feel a little more relaxed.",
+    "estimated_minutes": 15,
+    "order": 5
+  }
+]

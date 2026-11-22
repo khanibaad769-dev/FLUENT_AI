@@ -1,116 +1,78 @@
 {% extends "base.html" %}
-
 {% block title %}{{ module.name }} - Fluent AI{% endblock %}
-
 {% block content %}
-
-<div class="topbar">
-    <div class="page-title">
+<style>
+.module-page{max-width:1120px;margin:0 auto;padding-bottom:28px;color:var(--text)}
+.module-hero{position:relative;overflow:hidden;padding:30px;border:1px solid var(--border);border-radius:24px;background:linear-gradient(135deg,var(--surface),var(--surface-secondary));box-shadow:var(--shadow);margin-bottom:26px}
+.module-hero:after{content:"";position:absolute;width:210px;height:210px;border-radius:50%;right:-65px;top:-90px;background:var(--primary-soft);opacity:.75}
+.module-kicker{display:inline-flex;align-items:center;gap:8px;color:var(--primary);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.module-hero h1{font-size:clamp(27px,4vw,38px);line-height:1.15;margin:12px 0 9px;letter-spacing:-.04em}
+.module-hero p{color:var(--muted);max-width:620px;line-height:1.7;margin:0}
+.module-stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.module-stat{padding:9px 13px;border:1px solid var(--border);border-radius:12px;background:var(--surface);font-size:13px;color:var(--muted)}
+.stage-card{border:1px solid var(--border);border-radius:21px;background:var(--surface);box-shadow:var(--shadow);padding:23px;margin-bottom:20px}
+.stage-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:19px}
+.stage-heading{display:flex;align-items:center;gap:14px;min-width:0}
+.stage-number{width:48px;height:48px;flex:0 0 48px;display:grid;place-items:center;border-radius:15px;background:var(--primary-soft);color:var(--primary);font-size:19px;font-weight:850}
+.stage-heading h2{font-size:21px;margin:0 0 4px;letter-spacing:-.025em}
+.stage-heading p{margin:0;color:var(--muted);font-size:13px}
+.stage-count{white-space:nowrap;padding:8px 12px;border-radius:999px;background:var(--surface-secondary);border:1px solid var(--border);color:var(--muted);font-size:12px;font-weight:700}
+.level-list{display:grid;gap:11px}
+.level-item{display:flex;align-items:center;gap:15px;padding:16px;border:1px solid var(--border);border-radius:16px;background:var(--surface-secondary);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.level-item:hover{transform:translateY(-2px);border-color:var(--primary);box-shadow:0 8px 22px rgba(0,0,0,.06)}
+.level-index{width:42px;height:42px;flex:0 0 42px;display:grid;place-items:center;border-radius:13px;background:var(--surface);border:1px solid var(--border);font-weight:800;color:var(--primary);font-size:13px}
+.level-copy{min-width:0;flex:1}
+.level-label{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:800;margin-bottom:4px}
+.level-copy h3{font-size:16px;line-height:1.35;margin:0;color:var(--text)}
+.level-copy p{font-size:13px;line-height:1.55;color:var(--muted);margin:5px 0 0}
+.level-open{flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;text-decoration:none!important;padding:10px 14px;border-radius:12px;background:var(--primary);color:white!important;font-weight:750;font-size:13px;transition:opacity .18s ease}
+.level-open:hover{opacity:.88}
+.level-open span{font-size:17px;line-height:12px}
+.stage-empty{padding:20px;border:1px dashed var(--border);border-radius:14px;color:var(--muted);text-align:center;font-size:14px}
+@media(max-width:640px){.module-hero{padding:22px}.stage-card{padding:16px}.stage-head{align-items:flex-start}.stage-heading{gap:10px}.stage-number{width:42px;height:42px;flex-basis:42px}.stage-heading h2{font-size:18px}.level-item{align-items:flex-start;gap:10px;padding:13px}.level-index{width:35px;height:35px;flex-basis:35px}.level-open{padding:9px 10px;font-size:12px}.level-copy h3{font-size:14px}.level-copy p{font-size:12px}}
+@media(max-width:420px){.level-item{flex-wrap:wrap}.level-copy{width:calc(100% - 55px)}.level-open{margin-left:45px}}
+</style>
+<div class="module-page">
+    <section class="module-hero">
+        <div class="module-kicker">✦ Your learning roadmap</div>
         <h1>{{ module.name }}</h1>
-        <p>
-            Explore the stages and levels in your {{ module.name }} learning journey.
-        </p>
-    </div>
-</div>
-
-{% for stage in stages %}
-
-<div class="card" style="margin-bottom:24px;">
-
-    <div style="
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-        gap:15px;
-        flex-wrap:wrap;
-    ">
-
-        <div>
-            <span class="badge">
-                Stage {{ stage.number }}
-            </span>
-
-            <h2 style="margin-top:10px;">
-                {{ stage.name }}
-            </h2>
+        <p>Explore each stage and move through the levels at your own pace. Choose a level to open its lesson.</p>
+        <div class="module-stats">
+            <span class="module-stat">📚 {{ stages|length }} Stages</span>
+            <span class="module-stat">🎯 Structured learning</span>
         </div>
+    </section>
 
-        <span class="muted">
-            {{ stage.lessons|length }} Levels
-        </span>
-
-    </div>
-
-
-    <div style="
-        margin-top:20px;
-        display:flex;
-        flex-direction:column;
-        gap:12px;
-    ">
-
-        {% for lesson in stage.lessons %}
-
-        <div style="
-            padding:16px 18px;
-            border:1px solid #e5e7eb;
-            border-radius:12px;
-            background:#f8fafc;
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            gap:15px;
-        ">
-
-            <div>
-
-                <div style="
-                    font-size:13px;
-                    color:#64748b;
-                    margin-bottom:4px;
-                ">
-                    Level {{ lesson.topic_number }}
+    {% for stage in stages %}
+    <section class="stage-card">
+        <div class="stage-head">
+            <div class="stage-heading">
+                <div class="stage-number">{{ stage.number }}</div>
+                <div>
+                    <h2>{{ stage.name }}</h2>
+                    <p>Stage {{ stage.number }} · Build your skills step by step</p>
                 </div>
-
-                <div style="
-                    font-size:17px;
-                    font-weight:700;
-                    color:#172554;
-                ">
-                    {{ lesson.title }}
-                </div>
-
-                <div style="
-                    margin-top:5px;
-                    color:#64748b;
-                    font-size:14px;
-                ">
-                    {{ lesson.description }}
-                </div>
-
             </div>
-
-            <a
-                href="{% url 'lesson_detail' lesson.id %}"
-                class="btn btn-primary"
-            >
-                Open
-            </a>
-
+            <span class="stage-count">{{ stage.lessons|length }} Levels</span>
         </div>
-
-        {% empty %}
-
-        <p class="muted">
-            No levels have been added to this stage yet.
-        </p>
-
-        {% endfor %}
-
-    </div>
-
+        <div class="level-list">
+            {% for lesson in stage.lessons %}
+            <article class="level-item">
+                <div class="level-index">{{ lesson.topic_number }}</div>
+                <div class="level-copy">
+                    <div class="level-label">Level {{ lesson.topic_number }}</div>
+                    <h3>{{ lesson.title }}</h3>
+                    {% if lesson.description %}<p>{{ lesson.description }}</p>{% endif %}
+                </div>
+                <a href="{% url 'lesson_detail' lesson.id %}" class="level-open">Start lesson <span>›</span></a>
+            </article>
+            {% empty %}
+            <div class="stage-empty">No levels have been added to this stage yet.</div>
+            {% endfor %}
+        </div>
+    </section>
+    {% empty %}
+    <div class="stage-card"><div class="stage-empty">No stages are available in this module yet.</div></div>
+    {% endfor %}
 </div>
-
-{% endfor %}
-
 {% endblock %}

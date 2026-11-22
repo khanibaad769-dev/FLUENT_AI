@@ -1,7 +1,27 @@
-.venv/
-__pycache__/
-*.py[cod]
-*.py[cod]
 .env
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.sqlite3
+staticfiles/
 .DS_Store
-db.sqlite3
+
+# Nested duplicate project
+/fluent_ai/
+
+# Generated static files
+/staticfiles/
+
+/fluent_ai/
+/staticfiles/
+
+/fluent_ai/
+/staticfiles/
+
+/fluent_ai/
+/staticfiles/
+
+/fluent_ai/
+/staticfiles/

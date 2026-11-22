@@ -1,78 +1,95 @@
-import os
 import requests
 
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+# Local Ollama Configuration
+OLLAMA_URL = "http://localhost:11434/api/chat"
+MODEL_NAME = "llama3.2:1b"
 
-MODEL_NAME = "openai/gpt-oss-20b"
 
 SYSTEM_INSTRUCTIONS = """
-You are Fluent AI, an English-learning assistant.
+You are Fluent AI, a dedicated English tutor. Your primary goal is to help users improve their English through every conversation.
 
-Your responsibilities:
-- Answer the user's actual question.
-- Handle normal conversation naturally.
-- Correct grammar when useful and explain mistakes simply.
-- Help with vocabulary and conversational English.
-- Give pronunciation tips when requested.
-- Provide short, practical examples when useful.
-- Keep answers concise and suitable for speaking aloud.
-- Do not give unrelated lessons.
-- Do not correct every sentence unless correction is useful or requested.
+CORE RULES:
+
+1. ANSWER EVERY TOPIC:
+
+- Answer the user's actual question, regardless of the topic.
+- You may answer questions about science, technology, general knowledge, daily life, education, history, or any other subject.
+- Never reject a question simply because it is unrelated to English learning.
+- If you do not know an answer, honestly say so.
+
+2. ALWAYS ACT AS AN ENGLISH TUTOR:
+
+- Give the direct answer first.
+- Briefly explain useful vocabulary, grammar, or sentence structure when appropriate.
+- Correct English mistakes only when useful.
+- Do not turn every answer into a long English lesson.
+- Maintain the role of a professional, patient English tutor.
+
+3. LANGUAGE POLICY:
+
+- Use simple, natural English by default.
+- Understand Hindi and Hinglish questions.
+- Reply in simple English even when the user writes in Hindi or Hinglish.
+- If the user explicitly requests Hindi or Hinglish, explain in that language.
+
+4. RESPONSE STYLE:
+
+- Be professional, patient, clear, and encouraging.
+- Keep answers concise and easy to understand.
+- Use examples when helpful.
+- Avoid unnecessary greetings and long explanations.
+- Do not correct every Hinglish sentence unless useful.
+
+5. IMPORTANT PRIORITY:
+
+Answer the user's actual question first.
+Teach English naturally through the answer.
+Never sacrifice the user's question just to give an English lesson.
 """
 
 
 def generate_ai_response(message):
+
     if not isinstance(message, str) or not message.strip():
         raise ValueError("Please provide a valid message.")
-
-    api_key = os.environ.get("GROQ_API_KEY")
-
-    if not api_key:
-        raise RuntimeError(
-            "GROQ_API_KEY is not configured."
-        )
 
     payload = {
         "model": MODEL_NAME,
         "messages": [
             {
                 "role": "system",
-                "content": SYSTEM_INSTRUCTIONS,
+                "content": SYSTEM_INSTRUCTIONS
             },
             {
                 "role": "user",
-                "content": message.strip(),
-            },
+                "content": message.strip()
+            }
         ],
-        "temperature": 0.3,
-        "max_completion_tokens": 300,
         "stream": False,
+        "options": {
+            "temperature": 0.3,
+            "num_predict": 250
+        }
     }
 
     try:
         response = requests.post(
-            GROQ_API_URL,
+            OLLAMA_URL,
             headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
+                "Content-Type": "application/json"
             },
             json=payload,
-            timeout=(10, 60),
+            timeout=(5, 120)
         )
 
         response.raise_for_status()
+
         data = response.json()
 
-        answer = (
-            data.get("choices", [{}])[0]
-            .get("message", {})
-            .get("content", "")
-        )
+        answer = data.get("message", {}).get("content", "")
 
         if not isinstance(answer, str) or not answer.strip():
-            raise RuntimeError(
-                "The AI returned an empty response."
-            )
+            raise RuntimeError("The AI returned an empty response.")
 
         return answer.strip()
 
@@ -82,23 +99,13 @@ def generate_ai_response(message):
         ) from exc
 
     except requests.exceptions.HTTPError as exc:
-        status = (
-            exc.response.status_code
-            if exc.response is not None
-            else "unknown"
-        )
-
         raise RuntimeError(
-            f"Groq API error ({status}). "
-            "Check your API key, model and usage limits."
+            f"Local Ollama API error: HTTP {exc.response.status_code}. "
+            "Check the model and Ollama server."
         ) from exc
 
     except requests.exceptions.RequestException as exc:
         raise RuntimeError(
-            "Could not connect to the cloud AI service."
-        ) from exc
-
-    except (ValueError, KeyError, IndexError, TypeError) as exc:
-        raise RuntimeError(
-            "The AI returned an invalid response."
+            "Could not connect to local Ollama. "
+            "Make sure Ollama is running."
         ) from exc
