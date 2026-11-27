@@ -1,20 +1,17 @@
-
 {% extends "base.html" %}
 
 {% block title %}V-Notes | Fluent AI{% endblock %}
 
 {% block extra_css %}
 <style>
+
 /* =========================================================
-   FLUENT AI — V-NOTES PREMIUM LEARNING LIBRARY
+   FLUENT AI — V-NOTES PLAYLIST LIBRARY
 ========================================================= */
 
 .vn-page {
     --vn-accent: #7167ed;
-    --vn-accent-2: #9a75f5;
     --vn-accent-soft: rgba(113,103,237,.10);
-    --vn-glass: var(--surface);
-    --vn-line: var(--border);
 
     max-width: 1220px;
     margin: 0 auto;
@@ -153,324 +150,37 @@
     box-shadow: 0 12px 27px rgba(113,103,237,.32);
 }
 
-/* ---------- HEADER / COUNT ---------- */
+/* ---------- PLAYLIST ---------- */
 
-.vn-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin-bottom: 25px;
+.vn-playlist {
+    padding: 28px;
+    border: 1px solid rgba(113,103,237,.25);
+    border-radius: 20px;
+    background:
+        radial-gradient(circle at 100% 0%, rgba(113,103,237,.10), transparent 34%),
+        var(--surface);
+    box-shadow: var(--shadow);
 }
 
-.vn-header h2 {
-    margin: 0 0 6px;
+.vn-playlist h2 {
+    margin: 0 0 10px;
     color: var(--text);
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 850;
     letter-spacing: -.035em;
 }
 
-.vn-header p,
-.vn-muted {
+.vn-playlist p {
     margin: 0;
     color: var(--muted);
     font-size: 13px;
     line-height: 1.8;
-}
-
-.vn-count {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    flex-shrink: 0;
-    padding: 9px 14px;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    background: var(--surface);
-    color: var(--muted);
-    font-size: 12px;
-    font-weight: 750;
-}
-
-.vn-count strong {
-    color: var(--vn-accent);
-    font-size: 14px;
-}
-
-/* ---------- CATEGORY GRID ---------- */
-
-.vn-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 21px;
-}
-
-.vn-card {
-    position: relative;
-    min-width: 0;
-    overflow: hidden;
-    padding: 25px;
-    border: 1px solid var(--border);
-    border-radius: 19px;
-    background: var(--surface);
-    box-shadow: var(--shadow);
-    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
-}
-
-.vn-category-card {
-    isolation: isolate;
-}
-
-.vn-category-card::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(90deg, var(--card-accent, #7167ed), transparent 85%);
-    opacity: .85;
-}
-
-.vn-category-card::after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    width: 150px;
-    height: 150px;
-    top: -85px;
-    right: -65px;
-    border-radius: 50%;
-    background: var(--card-glow, rgba(113,103,237,.10));
-    filter: blur(2px);
-    transition: transform .3s ease;
-}
-
-.vn-category-card:nth-child(4n+1) {
-    --card-accent: #7167ed;
-    --card-glow: rgba(113,103,237,.13);
-}
-
-.vn-category-card:nth-child(4n+2) {
-    --card-accent: #299ac9;
-    --card-glow: rgba(41,154,201,.13);
-}
-
-.vn-category-card:nth-child(4n+3) {
-    --card-accent: #d17b47;
-    --card-glow: rgba(209,123,71,.13);
-}
-
-.vn-category-card:nth-child(4n+4) {
-    --card-accent: #269c83;
-    --card-glow: rgba(38,156,131,.13);
-}
-
-.vn-category-card:hover {
-    transform: translateY(-6px);
-    border-color: var(--card-accent);
-    box-shadow: 0 18px 40px rgba(50,55,100,.12);
-}
-
-.vn-category-card:hover::after {
-    transform: scale(1.5);
-}
-
-.vn-icon {
-    display: grid;
-    width: 57px;
-    height: 57px;
-    margin-bottom: 22px;
-    place-items: center;
-    border: 1px solid color-mix(in srgb, var(--card-accent) 24%, transparent);
-    border-radius: 17px;
-    background: color-mix(in srgb, var(--card-accent) 11%, transparent);
-    color: var(--card-accent);
-    font-size: 25px;
-    font-weight: 800;
-    transition: transform .25s ease;
-}
-
-.vn-category-card:hover .vn-icon {
-    transform: scale(1.08) rotate(-5deg);
-}
-
-.vn-card h2,
-.vn-card h3 {
-    margin: 0 0 10px;
-    color: var(--text);
-    font-weight: 800;
-    line-height: 1.45;
-    overflow-wrap: anywhere;
-}
-
-.vn-card h2 {
-    font-size: 19px;
-}
-
-.vn-card h3 {
-    font-size: 16px;
-}
-
-.vn-card p {
-    margin: 0 0 20px;
-    color: var(--muted);
-    font-size: 13px;
-    line-height: 1.85;
-    overflow-wrap: anywhere;
-    white-space: pre-line;
-}
-
-.vn-category-card .vn-btn {
-    background: color-mix(in srgb, var(--card-accent) 10%, transparent);
-    border-color: color-mix(in srgb, var(--card-accent) 25%, transparent);
-    color: var(--card-accent) !important;
-}
-
-.vn-category-card .vn-btn:hover {
-    background: var(--card-accent);
-    border-color: var(--card-accent);
-    color: #fff !important;
-}
-
-/* ---------- BUTTONS ---------- */
-
-.vn-btn {
-    display: inline-flex;
-    min-height: 42px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 17px;
-    border: 1px solid var(--vn-accent);
-    border-radius: 11px;
-    background: linear-gradient(120deg, #7167ed, #8c6bea);
-    color: #fff !important;
-    font-family: inherit;
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 1.4;
-    text-align: center;
-    text-decoration: none !important;
-    cursor: pointer;
-    box-shadow: 0 5px 14px rgba(113,103,237,.13);
-    transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
-}
-
-.vn-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 9px 20px rgba(113,103,237,.22);
-}
-
-.vn-btn span {
-    transition: transform .2s ease;
-}
-
-.vn-btn:hover span {
-    transform: translateX(3px);
-}
-
-.vn-btn-secondary {
-    border-color: var(--border);
-    background: var(--surface);
-    color: var(--text) !important;
-    box-shadow: none;
-}
-
-.vn-btn-secondary:hover {
-    border-color: var(--vn-accent);
-    background: var(--vn-accent-soft);
-    color: var(--vn-accent) !important;
-    box-shadow: none;
-}
-
-.vn-btn:focus-visible,
-.vn-back:focus-visible {
-    outline: 3px solid var(--vn-accent);
-    outline-offset: 3px;
-}
-
-/* ---------- BACK NAVIGATION ---------- */
-
-.vn-back {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    margin: 0 0 25px;
-    padding: 9px 13px;
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    background: var(--surface);
-    color: var(--text);
-    font-size: 12px;
-    font-weight: 750;
-    text-decoration: none;
-    transition: .2s ease;
-}
-
-.vn-back:hover {
-    border-color: var(--vn-accent);
-    background: var(--vn-accent-soft);
-    color: var(--vn-accent);
-    transform: translateX(-3px);
-}
-
-/* ---------- CATEGORY HEADING ---------- */
-
-.vn-category-heading {
-    position: relative;
-    margin-bottom: 25px;
-    padding: 25px 28px;
-    border: 1px solid var(--border);
-    border-radius: 18px;
-    background:
-        radial-gradient(circle at 95% 0%, rgba(129,111,245,.12), transparent 35%),
-        var(--surface);
-}
-
-.vn-category-heading h2 {
-    margin: 0 0 8px;
-    color: var(--text);
-    font-size: clamp(23px, 3vw, 31px);
-    font-weight: 850;
-    letter-spacing: -.04em;
-    overflow-wrap: anywhere;
-}
-
-.vn-category-heading p {
-    margin: 0;
-    color: var(--muted);
-    font-size: 13px;
-    line-height: 1.8;
-}
-
-/* ---------- SELECTED VIDEO ---------- */
-
-.vn-selected-video {
-    margin: 25px 0 35px;
-    padding: 27px;
-    border-color: rgba(113,103,237,.25);
-    background:
-        radial-gradient(circle at 100% 0%, rgba(113,103,237,.10), transparent 34%),
-        var(--surface);
-}
-
-.vn-selected-video > h2 {
-    margin-bottom: 9px;
-    font-size: 23px;
-}
-
-.vn-selected-video > p {
-    margin-bottom: 18px;
 }
 
 .vn-player {
     position: relative;
     overflow: hidden;
-    margin: 24px 0;
+    margin: 25px 0 0;
     border: 1px solid var(--border);
     border-radius: 17px;
     background: #101828;
@@ -484,123 +194,10 @@
     border: 0;
 }
 
-.vn-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 11px;
-    margin-top: 20px;
-}
-
-/* ---------- LESSON SECTION ---------- */
-
-.vn-section-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin: 34px 0 17px;
-}
-
-.vn-section-head h2 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 0;
-    color: var(--text);
-    font-size: 21px;
-    font-weight: 850;
-    letter-spacing: -.035em;
-}
-
-.vn-section-head h2::before {
-    content: "";
-    width: 4px;
-    height: 22px;
-    border-radius: 5px;
-    background: linear-gradient(#7167ed, #a174f3);
-}
-
-.vn-video-list {
-    display: grid;
-    gap: 14px;
-}
-
-.vn-video-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 22px;
-    padding: 21px 23px;
-    transition: transform .22s ease, border-color .22s ease;
-}
-
-.vn-video-row:hover {
-    transform: translateY(-3px);
-    border-color: rgba(113,103,237,.55);
-}
-
-.vn-video-info {
-    flex: 1;
-    min-width: 0;
-}
-
-.vn-video-info h3 {
-    margin-bottom: 6px;
-    font-size: 16px;
-}
-
-.vn-video-info p {
-    margin-bottom: 11px;
-    font-size: 12px;
-}
-
-.vn-video-level {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 10px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    background: var(--surface-secondary);
-    color: var(--muted);
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: .02em;
-}
-
-.vn-video-level::before {
-    content: "";
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #32b58b;
-}
-
-/* ---------- EMPTY STATES ---------- */
-
-.vn-empty {
-    grid-column: 1 / -1;
-    padding: 48px 24px;
-    text-align: center;
-    border-style: dashed;
-}
-
-.vn-empty h3 {
-    margin-bottom: 9px;
-    font-size: 18px;
-}
-
-.vn-empty p {
-    max-width: 460px;
-    margin: 0 auto 20px;
-}
-
 /* ---------- DARK MODE ---------- */
 
 html[data-theme="dark"] .vn-page {
     --vn-accent: #a69bff;
-    --vn-accent-2: #bd9bff;
     --vn-accent-soft: rgba(166,155,255,.12);
 }
 
@@ -618,22 +215,13 @@ html[data-theme="dark"] .vn-hero-visual {
     border-color: rgba(166,155,255,.22);
 }
 
-html[data-theme="dark"] .vn-category-card:hover,
-html[data-theme="dark"] .vn-video-row:hover {
-    box-shadow: 0 16px 35px rgba(0,0,0,.22);
+html[data-theme="dark"] .vn-playlist {
+    border-color: rgba(166,155,255,.24);
 }
 
 html[data-theme="dark"] .vn-player {
     border-color: rgba(165,181,235,.2);
     box-shadow: 0 15px 35px rgba(0,0,0,.28);
-}
-
-html[data-theme="dark"] .vn-video-level {
-    background: rgba(255,255,255,.045);
-}
-
-html[data-theme="dark"] .vn-selected-video {
-    border-color: rgba(166,155,255,.24);
 }
 
 /* ---------- RESPONSIVE ---------- */
@@ -675,54 +263,19 @@ html[data-theme="dark"] .vn-selected-video {
         font-size: 35px;
     }
 
-    .vn-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-
-    .vn-card {
-        padding: 21px;
+    .vn-playlist {
+        padding: 20px;
         border-radius: 16px;
     }
 
-    .vn-category-heading {
-        padding: 21px;
-    }
-
-    .vn-video-row {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 17px;
-    }
-
-    .vn-video-row .vn-btn {
-        width: 100%;
-    }
-
-    .vn-selected-video {
-        padding: 20px;
-    }
-
-    .vn-section-head {
-        align-items: flex-start;
+    .vn-playlist h2 {
+        font-size: 21px;
     }
 }
 
 @media (max-width: 420px) {
     .vn-hero h1 {
         font-size: 31px;
-    }
-
-    .vn-count {
-        font-size: 11px;
-    }
-
-    .vn-actions {
-        flex-direction: column;
-    }
-
-    .vn-actions .vn-btn {
-        width: 100%;
     }
 }
 
@@ -735,16 +288,24 @@ html[data-theme="dark"] .vn-selected-video {
         transition-duration: .01ms !important;
     }
 }
+
 </style>
 {% endblock %}
 
+
 {% block content %}
+
 <div class="vn-page">
 
     <!-- PREMIUM HERO -->
+
     <section class="vn-hero">
+
         <div class="vn-hero-content">
-            <div class="vn-eyebrow">Your personal learning library</div>
+
+            <div class="vn-eyebrow">
+                Your personal learning library
+            </div>
 
             <h1>
                 Learn. Watch.
@@ -752,185 +313,52 @@ html[data-theme="dark"] .vn-selected-video {
             </h1>
 
             <p>
-                Explore curated video lessons, strengthen your English skills,
-                and make every learning session count. Your journey to confident
-                communication starts here.
+                Explore curated English video lessons, strengthen
+                your communication skills, and make every learning
+                session count. Your journey to confident communication
+                starts here.
             </p>
+
         </div>
 
         <div class="vn-hero-visual" aria-hidden="true">
             <div class="vn-play-symbol">▶</div>
         </div>
+
     </section>
 
-    {% if not selected_category %}
 
-        <!-- CATEGORY HEADER -->
-        <div class="vn-header">
-            <div>
-                <div class="vn-eyebrow">Explore and discover</div>
-                <h2>Your Learning Categories</h2>
-                <p>Choose a category and start learning at your own pace.</p>
-            </div>
+    <!-- SINGLE YOUTUBE PLAYLIST -->
 
-            <span class="vn-count">
-                <strong>{{ categories|length }}</strong>
-                learning categories
-            </span>
+    <section class="vn-playlist">
+
+        <div class="vn-eyebrow">
+            Complete video learning series
         </div>
 
-        <!-- CATEGORY CARDS -->
-        <div class="vn-grid">
-            {% for item in categories %}
-                <article class="vn-card vn-category-card">
+        <h2>V-Notes Video Playlist</h2>
 
-                    <div class="vn-icon" aria-hidden="true">
-                        {{ item.icon }}
-                    </div>
+        <p>
+            All your English learning videos in one place.
+            Watch, practice and improve your grammar, speaking
+            and communication skills.
+        </p>
 
-                    <h2>{{ item.title }}</h2>
+        <div class="vn-player">
 
-                    <p>{{ item.description }}</p>
+            <iframe
+                src="https://www.youtube.com/embed/videoseries?list=PLfSUFKdFlttlrDw2756XyiZXrjdTOw9UH"
+                title="Fluent AI English Learning Playlist"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
 
-                    <a
-                        class="vn-btn"
-                        href="{% url 'vnotes' %}?category={{ item.slug|urlencode }}"
-                    >
-                        Explore lessons
-                        <span aria-hidden="true">→</span>
-                    </a>
-
-                </article>
-            {% empty %}
-                <div class="vn-card vn-empty">
-                    <div class="vn-eyebrow">Library is waiting</div>
-                    <h3>No learning categories yet</h3>
-                    <p>
-                        Add your video lesson categories to make them
-                        available in your learning library.
-                    </p>
-                    <a class="vn-btn" href="{% url 'admin:index' %}">
-                        Open admin panel
-                        <span aria-hidden="true">→</span>
-                    </a>
-                </div>
-            {% endfor %}
         </div>
 
-    {% else %}
-
-        <!-- BACK NAVIGATION -->
-        <a class="vn-back" href="{% url 'vnotes' %}">
-            <span aria-hidden="true">←</span>
-            Back to all categories
-        </a>
-
-        <!-- SELECTED CATEGORY -->
-        <section class="vn-category-heading">
-            <div class="vn-eyebrow">Your learning destination</div>
-            <h2>{{ selected_category.title }}</h2>
-            <p>
-                Choose a lesson to watch it here without leaving Fluent AI.
-                Learn something new with every video.
-            </p>
-        </section>
-
-        <!-- SELECTED VIDEO PLAYER -->
-        {% if selected_video %}
-            <section class="vn-card vn-selected-video">
-
-                <div class="vn-eyebrow">Now playing</div>
-
-                <h2>{{ selected_video.title }}</h2>
-
-                {% if selected_video.description %}
-                    <p>{{ selected_video.description }}</p>
-                {% endif %}
-
-                {% if embed_url %}
-                    <div class="vn-player">
-                        <iframe
-                            src="{{ embed_url }}"
-                            title="{{ selected_video.title }}"
-                            loading="lazy"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-                {% else %}
-                    <p>
-                        This video URL could not be embedded. Please check
-                        the video link in the Django admin panel.
-                    </p>
-                {% endif %}
-
-                <div class="vn-actions">
-                    <a
-                        class="vn-btn vn-btn-secondary"
-                        href="{% url 'vnotes' %}?category={{ category|urlencode }}"
-                    >
-                        <span aria-hidden="true">←</span>
-                        Back to lessons
-                    </a>
-                </div>
-
-            </section>
-        {% endif %}
-
-        <!-- AVAILABLE LESSONS -->
-        <div class="vn-section-head">
-            <h2>Available Lessons</h2>
-
-            <span class="vn-count">
-                <strong>{{ notes|length }}</strong>
-                lessons
-            </span>
-        </div>
-
-        <div class="vn-video-list">
-            {% for video in notes %}
-                <article class="vn-card vn-video-row">
-
-                    <div class="vn-video-info">
-                        <h3>{{ video.title }}</h3>
-
-                        <p>
-                            {{ video.description|default:"English learning lesson" }}
-                        </p>
-
-                        <span class="vn-video-level">
-                            Level: {{ video.level|default:"All levels" }}
-                        </span>
-                    </div>
-
-                    <a
-                        class="vn-btn"
-                        href="{% url 'vnotes' %}?category={{ category|urlencode }}&amp;video={{ video.pk }}"
-                        aria-label="Watch {{ video.title }}"
-                    >
-                        <span aria-hidden="true">▶</span>
-                        Watch lesson
-                    </a>
-
-                </article>
-            {% empty %}
-                <div class="vn-card vn-empty">
-                    <div class="vn-eyebrow">Coming soon</div>
-                    <h3>No lessons in this category yet</h3>
-                    <p>
-                        Add videos through your Django admin panel and set
-                        each video's topic to match this category.
-                    </p>
-                    <a class="vn-btn" href="{% url 'admin:index' %}">
-                        Open admin panel
-                        <span aria-hidden="true">→</span>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-
-    {% endif %}
+    </section>
 
 </div>
+
 {% endblock %}
