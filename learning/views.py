@@ -1099,7 +1099,7 @@ def get_daily_writing_prompt(user):
         "title": title,
         "task": task,
         "alt": title,
-        "image_path": f"images/assessment/optimized/{filename}",
+        "image_path": f"images/assessment/{filename}",
     }
 
 

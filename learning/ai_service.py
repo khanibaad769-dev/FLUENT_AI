@@ -1,8 +1,9 @@
-import requests
+import os
+from openai import OpenAI
 
-# Local Ollama Configuration
-OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL_NAME = "llama3.2:1b"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL")
 
 
 SYSTEM_INSTRUCTIONS = """
@@ -49,63 +50,34 @@ Never sacrifice the user's question just to give an English lesson.
 
 
 def generate_ai_response(message):
-
     if not isinstance(message, str) or not message.strip():
         raise ValueError("Please provide a valid message.")
 
-    payload = {
-        "model": MODEL_NAME,
-        "messages": [
-            {
-                "role": "system",
-                "content": SYSTEM_INSTRUCTIONS
-            },
-            {
-                "role": "user",
-                "content": message.strip()
-            }
-        ],
-        "stream": False,
-        "options": {
-            "temperature": 0.3,
-            "num_predict": 250
-        }
-    }
+    api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError("AI service is not configured. Add OPENAI_API_KEY in Render environment variables.")
+
+    client_options = {"api_key": api_key, "timeout": 60.0, "max_retries": 2}
+    base_url = os.getenv("OPENAI_BASE_URL", "").strip()
+    if base_url:
+        client_options["base_url"] = base_url
 
     try:
-        response = requests.post(
-            OLLAMA_URL,
-            headers={
-                "Content-Type": "application/json"
-            },
-            json=payload,
-            timeout=(5, 120)
+        client = OpenAI(**client_options)
+        result = client.chat.completions.create(
+            model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
+            messages=[
+                {"role": "system", "content": SYSTEM_INSTRUCTIONS},
+                {"role": "user", "content": message.strip()},
+            ],
+            temperature=0.3,
+            max_tokens=400,
         )
-
-        response.raise_for_status()
-
-        data = response.json()
-
-        answer = data.get("message", {}).get("content", "")
-
+        answer = result.choices[0].message.content if result.choices else None
         if not isinstance(answer, str) or not answer.strip():
-            raise RuntimeError("The AI returned an empty response.")
-
+            raise RuntimeError("The AI returned an empty response. Please try again.")
         return answer.strip()
-
-    except requests.exceptions.Timeout as exc:
-        raise RuntimeError(
-            "The AI took too long to respond. Please try again."
-        ) from exc
-
-    except requests.exceptions.HTTPError as exc:
-        raise RuntimeError(
-            f"Local Ollama API error: HTTP {exc.response.status_code}. "
-            "Check the model and Ollama server."
-        ) from exc
-
-    except requests.exceptions.RequestException as exc:
-        raise RuntimeError(
-            "Could not connect to local Ollama. "
-            "Make sure Ollama is running."
-        ) from exc
+    except RuntimeError:
+        raise
+    except Exception as exc:
+        raise RuntimeError("AI service request failed. Check OPENAI_API_KEY, OPENAI_MODEL, and the provider dashboard.") from exc
