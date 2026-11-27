@@ -868,14 +868,14 @@ html[data-theme="dark"] .profile-page .profile-achievement-count {
 
                 <div class="profile-identity-info">
                     <h2>{{ user.first_name|default:user.username }}</h2>
-                    <p class="profile-username">@{{ user.username }}</p>
+                    <p class="profile-username notranslate" translate="no">@{{ user.username }}</p>
                 </div>
 
             </div>
 
             <div class="profile-detail">
                 <span class="profile-detail-label">Email address</span>
-                <p class="profile-detail-value">
+                <p class="profile-detail-value notranslate" translate="no">
                     {{ user.email|default:"Not provided" }}
                 </p>
             </div>
@@ -896,7 +896,7 @@ html[data-theme="dark"] .profile-page .profile-achievement-count {
 
                 <div class="profile-stat">
                     <span class="profile-stat-label">CEFR Level</span>
-                    <p class="profile-stat-value">
+                    <p class="profile-stat-value notranslate" translate="no">
                         {{ profile.cefr_level|default:"A1" }}
                     </p>
                 </div>

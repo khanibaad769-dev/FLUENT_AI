@@ -768,7 +768,7 @@ Tutor{% endblock %} {% block content %}
 <div class="tutor-container" id="chat-page">
   <header class="tutor-header">
     <div>
-      <h1>Fluent AI Tutor</h1>
+      <h1 class="notranslate" translate="no">Fluent AI Tutor</h1>
 
       <p class="tutor-subtitle">
         Improve your English through chat and voice practice.
@@ -778,13 +778,13 @@ Tutor{% endblock %} {% block content %}
     <div class="connection-status">
       <span class="status-dot"></span>
 
-      <span>AI Tutor</span>
+      <span class="notranslate" translate="no">AI Tutor</span>
     </div>
   </header>
 
   <section class="chat-panel">
     <div class="chat-toolbar">
-      <h3>💬 Chat with Fluent AI</h3>
+      <h3>💬 Chat with <span class="notranslate" translate="no">Fluent AI</span></h3>
 
       <div class="toolbar-actions">
         <button type="button" class="ui-btn primary" id="open-voice-mode">
@@ -816,7 +816,7 @@ Tutor{% endblock %} {% block content %}
         <div class="message-avatar">🤖</div>
 
         <div class="message-content">
-          <span class="message-name">Fluent AI</span>
+          <span class="message-name notranslate" translate="no">Fluent AI</span>
 
           <div class="message-bubble bot-markdown">
             {{ item.response|escape }}
@@ -898,7 +898,7 @@ Tutor{% endblock %} {% block content %}
 
 <section class="voice-screen" id="voice-screen" hidden>
   <header class="voice-screen-header">
-    <strong>🎙️ Fluent AI Voice Tutor</strong>
+    <strong class="notranslate" translate="no">🎙️ Fluent AI Voice Tutor</strong>
 
     <button type="button" class="ui-btn" id="back-to-chat">
       ← Back to Chat

@@ -375,7 +375,9 @@
     </a>
 
     <section class="interview-activity-hero">
-        <span class="interview-eyebrow">Interview preparation</span>
+        <span class="interview-eyebrow notranslate" translate="no">
+    Interview preparation
+</span>
 
         <h1>{{ activity_title }}</h1>
 
@@ -424,20 +426,24 @@
             <article class="interview-result-card">
 
                 <div class="interview-question-meta">
-                    <span class="interview-category">
-                        {{ result.question.get_category_display }}
-                    </span>
+                    <span class="interview-category notranslate" translate="no">
+    {{ result.question.get_category_display }}
+</span>
 
                     <span class="interview-question-number">
                         Question {{ forloop.counter }}
                     </span>
                 </div>
 
-                <h3>{{ result.question.question_text }}</h3>
+                <h3 class="notranslate" translate="no">
+    {{ result.question.question_text }}
+</h3>
 
                 <span class="interview-subheading">Your answer</span>
 
-                <div class="interview-sample-answer">{{ result.answer|default:"No answer provided." }}</div>
+                <div class="interview-sample-answer notranslate" translate="no">
+    {{ result.answer|default:"No answer provided." }}
+</div>
 
                 <p class="interview-feedback">
                     <span class="interview-result-score">
@@ -446,13 +452,17 @@
                 </p>
 
                 {% if result.feedback %}
-                    <p class="interview-feedback">{{ result.feedback }}</p>
+                    <p class="interview-feedback notranslate" translate="no">
+    {{ result.feedback }}
+</p>
                 {% endif %}
 
                 {% if activity == "common" %}
                     <span class="interview-subheading">Sample answer</span>
 
-                    <div class="interview-sample-answer">{{ result.question.sample_answer }}</div>
+                    <div class="interview-sample-answer notranslate" translate="no">
+    {{ result.question.sample_answer }}
+</div>
                 {% endif %}
 
             </article>
@@ -489,7 +499,9 @@
                     </span>
                 </div>
 
-                <h3>{{ question.question_text }}</h3>
+                <h3 class="notranslate" translate="no">
+    {{ question.question_text }}
+</h3>
 
                 <span class="interview-subheading">Sample Answer</span>
 
@@ -497,7 +509,9 @@
 
                 {% if question.answer_tips %}
                     <span class="interview-subheading">Answer Tips</span>
-                    <p class="interview-tips">{{ question.answer_tips }}</p>
+                    <p class="interview-tips notranslate" translate="no">
+    {{ question.answer_tips }}
+</p>
                 {% endif %}
 
             </article>

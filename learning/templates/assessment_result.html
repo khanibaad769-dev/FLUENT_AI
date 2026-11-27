@@ -283,17 +283,17 @@
         <div class="level-panel">
             <p class="level-label">Predicted Proficiency Level</p>
 
-            <h2 class="level-value">
+            <h2 class="level-value notranslate" translate="no">
                 {{ attempt.predicted_level }}
             </h2>
 
-            <span class="assessment-type">
-                {% if attempt.writing_response %}
-                    Writing Assessment
-                {% else %}
-                    MCQ Assessment
-                {% endif %}
-            </span>
+            <span class="assessment-type notranslate" translate="no">
+    {% if attempt.writing_response %}
+        Writing Assessment
+    {% else %}
+        MCQ Assessment
+    {% endif %}
+</span>
         </div>
     </section>
 
@@ -302,7 +302,7 @@
         {% if attempt.writing_response %}
             <section class="result-card">
                 <div class="result-card-heading">
-                    <div class="result-icon">WR</div>
+                    <div class="result-icon notranslate" translate="no">WR</div>
                     <h2>Writing Score</h2>
                 </div>
 
@@ -318,7 +318,7 @@
         {% else %}
             <section class="result-card">
                 <div class="result-card-heading">
-                    <div class="result-icon">MCQ</div>
+                    <div class="result-icon notranslate" translate="no">MCQ</div>
                     <h2>MCQ Score</h2>
                 </div>
 
@@ -334,7 +334,7 @@
 
         <section class="result-card recommendations-card">
             <div class="result-card-heading">
-                <div class="result-icon">TIP</div>
+                <div class="result-icon notranslate" translate="no">TIP</div>
                 <h2>Recommendations</h2>
             </div>
 
@@ -348,7 +348,7 @@
     {% if attempt.writing_response %}
         <section class="result-card writing-card">
             <div class="result-card-heading">
-                <div class="result-icon">TXT</div>
+                <div class="result-icon notranslate" translate="no">TXT</div>
                 <h2>Your Writing Response</h2>
             </div>
 

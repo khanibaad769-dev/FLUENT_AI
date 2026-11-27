@@ -767,13 +767,13 @@ html[data-theme="dark"] #lessonExperience .lesson-read-aloud:focus-visible {
             </a>
 
             <div>
-                <span class="lesson-level">{{ lesson.level }}</span>
+                <span class="lesson-level notranslate" translate="no">{{ lesson.level }}</span>
             </div>
 
-            <h1>{{ lesson.title }}</h1>
+            <h1 class="notranslate" translate="no">{{ lesson.title }}</h1>
 
             {% if lesson.description %}
-                <p class="lesson-hero-description">{{ lesson.description }}</p>
+                <p class="lesson-hero-description notranslate" translate="no">{{ lesson.description }}</p>
             {% endif %}
 
             <div class="lesson-meta">
@@ -787,57 +787,58 @@ html[data-theme="dark"] #lessonExperience .lesson-read-aloud:focus-visible {
         </div>
     </section>
 
-<!-- VISUAL LEARNING CARDS -->
-<section class="lesson-visual-area">
+    <!-- VISUAL LEARNING CARDS -->
+    <section class="lesson-visual-area">
 
-    <h2 class="lesson-visual-heading">
-        Your Learning Journey <span>Starts Here</span>
-    </h2>
+        <h2 class="lesson-visual-heading">
+            Your Learning Journey <span>Starts Here</span>
+        </h2>
 
-    <div class="lesson-visual-section">
+        <div class="lesson-visual-section">
 
-        <article class="lesson-visual-card">
-            <img
-                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=700&q=85"
-                alt="Student learning and reading a book"
-                loading="lazy"
-            >
-            <div class="lesson-visual-overlay">
-                <span>Step 01</span>
-                <h3>Learn Something New</h3>
-                <p>Understand concepts at your own pace.</p>
-            </div>
-        </article>
+            <article class="lesson-visual-card">
+                <img
+                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=700&q=85"
+                    alt="Student learning and reading a book"
+                    loading="lazy"
+                >
+                <div class="lesson-visual-overlay">
+                    <span>Step 01</span>
+                    <h3>Learn Something New</h3>
+                    <p>Understand concepts at your own pace.</p>
+                </div>
+            </article>
 
-        <article class="lesson-visual-card">
-            <img
-                src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=85"
-                alt="Writing and practising English"
-                loading="lazy"
-            >
-            <div class="lesson-visual-overlay">
-                <span>Step 02</span>
-                <h3>Practise Every Day</h3>
-                <p>Build confidence through regular practice.</p>
-            </div>
-        </article>
+            <article class="lesson-visual-card">
+                <img
+                    src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=85"
+                    alt="Writing and practising English"
+                    loading="lazy"
+                >
+                <div class="lesson-visual-overlay">
+                    <span>Step 02</span>
+                    <h3>Practise Every Day</h3>
+                    <p>Build confidence through regular practice.</p>
+                </div>
+            </article>
 
-        <article class="lesson-visual-card">
-            <img
-                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=700&q=85"
-                alt="Students learning together"
-                loading="lazy"
-            >
-            <div class="lesson-visual-overlay">
-                <span>Step 03</span>
-                <h3>Grow Your Confidence</h3>
-                <p>Take one step closer to fluent English.</p>
-            </div>
-        </article>
+            <article class="lesson-visual-card">
+                <img
+                    src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=700&q=85"
+                    alt="Students learning together"
+                    loading="lazy"
+                >
+                <div class="lesson-visual-overlay">
+                    <span>Step 03</span>
+                    <h3>Grow Your Confidence</h3>
+                    <p>Take one step closer to fluent English.</p>
+                </div>
+            </article>
 
-    </div>
+        </div>
 
-</section>
+    </section>
+
     <!-- PROGRESS -->
     <section class="lesson-progress-card">
         <div class="lesson-progress-top">
@@ -849,7 +850,6 @@ html[data-theme="dark"] #lessonExperience .lesson-read-aloud:focus-visible {
             <div class="lesson-progress-fill" id="lessonProgressFill"></div>
         </div>
     </section>
-
 
     <div class="lesson-layout">
 
@@ -932,9 +932,9 @@ html[data-theme="dark"] #lessonExperience .lesson-read-aloud:focus-visible {
                 </div>
 
                 <!-- Original database content remains untouched -->
-                <div id="rawLessonContent" hidden>{{ lesson.content }}</div>
+                <div id="rawLessonContent" class="notranslate" translate="no" hidden>{{ lesson.content }}</div>
 
-                <article class="lesson-content" id="lessonContent">
+                <article class="lesson-content notranslate" id="lessonContent" translate="no">
                     <p class="lesson-content-empty">Loading lesson content...</p>
                 </article>
 
@@ -953,11 +953,11 @@ html[data-theme="dark"] #lessonExperience .lesson-read-aloud:focus-visible {
                         {% for word in vocabulary_items %}
                         <div class="lesson-vocabulary-item">
 
-                            <div class="lesson-vocabulary-word">
+                            <div class="lesson-vocabulary-word notranslate" translate="no">
                                 {{ word.word }}
                             </div>
 
-                            <div class="lesson-vocabulary-meaning">
+                            <div class="lesson-vocabulary-meaning notranslate" translate="no">
                                 {{ word.meaning }}
                             </div>
 
@@ -977,7 +977,7 @@ html[data-theme="dark"] #lessonExperience .lesson-read-aloud:focus-visible {
                         ✏️ Grammar Points
                     </h2>
 
-                    <div class="lesson-grammar-box">
+                    <div class="lesson-grammar-box notranslate" translate="no">
                         {{ lesson.grammar_points|linebreaksbr }}
                     </div>
 

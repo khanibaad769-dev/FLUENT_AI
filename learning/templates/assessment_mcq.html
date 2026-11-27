@@ -311,7 +311,7 @@
     <section class="mcq-hero">
         <span class="mcq-eyebrow">English proficiency</span>
 
-        <h1>MCQ Assessment</h1>
+        <h1 class="notranslate" translate="no">MCQ Assessment</h1>
 
         <p>
             Answer all 20 questions to estimate your English proficiency.
@@ -321,7 +321,7 @@
         <div class="mcq-progress">
             <div class="mcq-progress-label">
                 <span>Assessment overview</span>
-                <span>20 questions</span>
+                <span class="notranslate" translate="no">20 questions</span>
             </div>
 
             <div
@@ -341,14 +341,14 @@
         {% csrf_token %}
 
         {% for question in questions %}
-            <section class="mcq-question-card">
+            <section class="mcq-question-card notranslate" translate="no">
 
                 <div class="mcq-question-meta">
                     <span class="mcq-question-number">
                         Question {{ forloop.counter }} of 20
                     </span>
 
-                    <span class="mcq-category">
+                    <span class="mcq-category notranslate" translate="no">
                         {{ question.category }}
                     </span>
                 </div>
@@ -429,11 +429,12 @@
 
                 <button
                     type="submit"
-                    class="mcq-submit-btn"
+                    class="mcq-submit-btn notranslate" translate="no"
                 >
                     Submit MCQ Assessment
                     <span aria-hidden="true">→</span>
                 </button>
+                
             </div>
         {% endif %}
     </form>

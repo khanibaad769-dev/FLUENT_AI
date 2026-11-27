@@ -322,7 +322,7 @@
 <div class="writing-assessment-page">
 
     <section class="writing-hero">
-        <span class="writing-eyebrow">English proficiency</span>
+        <span class="writing-eyebrow notranslate" translate="no">English proficiency</span>
 
         <h1>Writing Assessment</h1>
 
@@ -335,7 +335,7 @@
 
     <section class="writing-card">
         <div class="writing-card-header">
-            <div class="writing-icon" aria-hidden="true">Aa</div>
+            <div class="writing-icon notranslate" aria-hidden="true" translate="no">Aa</div>
 
             <div>
                 <h2>Your Writing Task</h2>
@@ -394,7 +394,7 @@
 
             {% if level %}
                 <p style="margin-top: 10px; font-size: 12px;">
-                    Your learning level: {{ level|title }}
+                    Your learning level: <span class="notranslate" translate="no">{{ level|title }}</span>
                 </p>
             {% endif %}
         </div>
@@ -415,9 +415,10 @@
                 </div>
 
                 <textarea
-                    id="writing_response"
-                    name="writing_response"
-                    class="writing-textarea"
+    id="writing_response"
+    name="writing_response"
+    class="writing-textarea notranslate"
+    translate="no"
                     placeholder="Start writing in English here...
 
 Try to organise your ideas into paragraphs and use complete sentences."
@@ -428,12 +429,13 @@ Try to organise your ideas into paragraphs and use complete sentences."
 
                 <div class="writing-editor-footer">
                     <span
-                        id="writing-counter"
-                        class="writing-counter"
-                        aria-live="polite"
-                    >
-                        0 characters
-                    </span>
+    id="writing-counter"
+    class="writing-counter notranslate"
+    translate="no"
+    aria-live="polite"
+>
+    0 characters
+</span>
 
                     <span class="writing-hint" id="writing-hint">
                         Write naturally and use your own words.

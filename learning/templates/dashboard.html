@@ -3071,7 +3071,10 @@ html[data-theme="dark"] .dashboard .stat-card:has(#streakValue) {
             </div>
             <div class="user-meta">
                 <strong>{{ user.username }}</strong>
-                <small>{{ payload.cefr|default:"A1" }} proficiency level</small>
+                <small>
+    <span class="notranslate" translate="no">{{ payload.cefr|default:"A1" }}</span>
+    proficiency level
+</small>
             </div>
         </div>
     </header>
@@ -3140,7 +3143,9 @@ html[data-theme="dark"] .dashboard .stat-card:has(#streakValue) {
         </article>
         <article class="card stat-card">
             <div class="stat-top">
-                <span class="stat-label">CEFR level</span>
+                <span class="stat-label">
+    <span class="notranslate" translate="no">CEFR</span> level
+</span>
                 <span class="stat-mark" aria-hidden="true">
                     <svg viewBox="0 0 24 24">
                         <path d="M4 19V5M4 5h12l-2 4 2 4H4" />
@@ -3148,9 +3153,9 @@ html[data-theme="dark"] .dashboard .stat-card:has(#streakValue) {
                     </svg>
                 </span>
             </div>
-            <strong class="stat-value" id="cefrValue">
-                {{ payload.cefr|default:"A1" }}
-            </strong>
+           <strong class="stat-value notranslate" id="cefrValue" translate="no">
+    {{ payload.cefr|default:"A1" }}
+</strong>
             <p class="stat-description">
                 Estimated English proficiency
             </p>
